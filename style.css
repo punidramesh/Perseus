@@ -5,7 +5,7 @@
 }
 body
 {
-    font-family: sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 #nav-bar
 {
@@ -15,6 +15,25 @@ body
 }
 .navbar-brand img
 {
-    height: 40px;
-    padding-left: 15px;
+    height: 60px;
+    padding-left: 5px;
+}
+#landing-title
+{
+    padding-top: 120px;
+    /*font-family: 'Permanent Marker', cursive; */
+    font-family: 'DIN 30640 Std';
+    font-size: 130px;
+    color: #524E4B;
+    text-align: center  
+}
+
+@font-face {
+    font-family: 'DIN 30640 Std';
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond.eot');
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond.woff2') format('woff2'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond.woff') format('woff'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond.ttf')  format('truetype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
 }
