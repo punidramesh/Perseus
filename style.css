@@ -2,10 +2,16 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body
 {
     font-family: 'Permanent Marker', cursive;
+}
+:root {
+	--br-blobby: 50%;
+	--br-blobby-before: 50%;
+	--br-blobby-after: 50%;
 }
 #particles-js
 {
@@ -16,6 +22,51 @@ body
 .particles-js-canvas-el
 {
     position: absolute;
+}
+.box {
+	animation: rotate 5s linear infinite;
+	background-color: darksalmon;
+	border-radius: var(--br-blobby);
+	position: relative;
+	height: 250px;
+	width: 250px;
+	transition: 0.3s linear;
+}
+
+.box::after {
+	content: '';
+	background-color: darksalmon;
+	border-radius: var(--br-blobby-after);
+	position: absolute;
+	opacity: 0.5;
+	top: -2%;
+	left: -2%;
+	height: 104%;
+	width: 104%;
+	transition: 0.3s linear;
+}
+
+.box::before {
+	content: '';
+	background-color: darksalmon;
+	border-radius: var(--br-blobby-before);
+	position: absolute;
+	opacity: 0.5;
+	top: -4%;
+	left: -4%;
+	height: 108%;
+	width: 108%;
+	transition: 0.3s linear;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
 }
 #nav-bar
 {
@@ -50,7 +101,15 @@ body
     font-size: 25px;
     text-align: center  
 }
-
+#about
+{
+    padding-top: 330px;
+    /*padding-right: 150px;*/
+    font-family: 'DIN 30640 Std';
+    font-size: 90px;
+    color: #524E4B;
+    text-align: center 
+}
 @font-face {
     font-family: 'DIN 30640 Std';
     src: url('fonts/DINNeuzeitGroteskStd-BdCond.eot');
