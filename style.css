@@ -23,51 +23,6 @@ body
 {
     position: absolute;
 }
-.box {
-	animation: rotate 5s linear infinite;
-	background-color: darksalmon;
-	border-radius: var(--br-blobby);
-	position: relative;
-	height: 250px;
-	width: 250px;
-	transition: 0.3s linear;
-}
-
-.box::after {
-	content: '';
-	background-color: darksalmon;
-	border-radius: var(--br-blobby-after);
-	position: absolute;
-	opacity: 0.5;
-	top: -2%;
-	left: -2%;
-	height: 104%;
-	width: 104%;
-	transition: 0.3s linear;
-}
-
-.box::before {
-	content: '';
-	background-color: darksalmon;
-	border-radius: var(--br-blobby-before);
-	position: absolute;
-	opacity: 0.5;
-	top: -4%;
-	left: -4%;
-	height: 108%;
-	width: 108%;
-	transition: 0.3s linear;
-}
-
-@keyframes rotate {
-	0% {
-		transform: rotate(0deg);
-	}
-	
-	100% {
-		transform: rotate(360deg);
-	}
-}
 #nav-bar
 {
     position: sticky;
@@ -101,21 +56,94 @@ body
     font-size: 25px;
     text-align: center  
 }
+/*#59c8d7*/
+.box {
+	animation: rotate 5s linear infinite;
+	background-color: #9751d9;
+	border-radius: var(--br-blobby);
+    position: absolute;
+	height: 100px;
+	width: 100px;
+	transition: 0.3s linear;
+}
+
+.box::after {
+	content: '';
+	background-color: #9751d9;
+	border-radius: var(--br-blobby-after);
+	position: absolute;
+	opacity: 0.5;
+	top: -2%;
+	left: -2%;
+	height: 104%;
+	width: 104%;
+	transition: 0.3s linear;
+}
+
+.box::before {
+	content: '';
+	background-color: #9751d9;
+	border-radius: var(--br-blobby-before);
+	position: absolute;
+	opacity: 0.5;
+	top: -4%;
+	left: -4%;
+	height: 108%;
+	width: 108%;
+	transition: 0.3s linear;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
 #about
 {
-    padding-top: 330px;
-    /*padding-right: 150px;*/
-    font-family: 'DIN 30640 Std';
-    font-size: 90px;
-    color: #524E4B;
-    text-align: center 
+    padding-top: 85px;
+    padding-right: 600px;
+
 }
 @font-face {
     font-family: 'DIN 30640 Std';
-    src: url('fonts/DINNeuzeitGroteskStd-BdCond.eot');
-    src: url('fonts/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond.woff2') format('woff2'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond.woff') format('woff'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond.ttf')  format('truetype'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot');
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff2') format('woff2'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff') format('woff'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.ttf')  format('truetype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
+}
+.about-img
+{
+    margin-top: -80px;
+}
+@font-face {
+    font-family: 'Neoteric-Bold';
+    src: url('fonts/Neoteric-Bold/Neoteric-Bold.eot');
+    src: url('fonts/Neoteric-Bold/Neoteric-Bold?#iefix') format('embedded-opentype'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.woff2') format('woff2'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.woff') format('woff'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.ttf')  format('truetype'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.svg#DIN 30640 Std') format('svg');
+}
+@font-face {
+    font-family: 'Bebas-Neue-Pro-Book';
+    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.eot');
+    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book?#iefix') format('embedded-opentype'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff2') format('woff2'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff') format('woff'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.ttf')  format('truetype'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.svg#DIN 30640 Std') format('svg');
+}
+@font-face {
+    font-family: 'Bahij_Janna-Regular';
+    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.eot');
+    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular?#iefix') format('embedded-opentype'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.woff') format('woff'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.ttf')  format('truetype'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.svg#DIN 30640 Std') format('svg');
 }
