@@ -6,6 +6,7 @@
 }
 body
 {
+    overflow-x: hidden; 
     font-family: 'Permanent Marker', cursive;
 }
 #particles-js
@@ -21,7 +22,9 @@ body
 #nav-bar
 {
     position: sticky;
-    top: 0;
+	top: 0;
+	position: fixed;
+    width: 100%;
     z-index: 10;
 }
 .navbar-brand img
@@ -29,7 +32,6 @@ body
     height: 60px;
     padding-left: 5px;
 }
-
 #landing-title
 {
     padding-top: 130px;
@@ -81,7 +83,7 @@ body
     left: 10%;
     font-family: 'DIN 30640 Std';
     font-size: 80px;
-    color: #524E4B;
+	color: #524E4B;
 }
 .abt{
     position: absolute;
@@ -113,10 +115,14 @@ body
 {
     margin-top: -80px;
 }
+#timeline
+{
+    position: relative;
+}
 #edu-text
 {
     position: absolute;
-    top: 260%;
+    top: 15%;
     left: 10%;
     font-family: 'Neoteric-Bold';
     font-size: 40px;
@@ -124,13 +130,12 @@ body
 }
 .tlpic
 {
-    margin-top: -150px;
     padding-right: 30px;
 }
 .m1
 {
     position: absolute;
-    top: 294%;
+    top: 57.5%;
     left: 16%;
     height: 50px;
     width: 50px;
@@ -139,7 +144,7 @@ body
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 293%;
+    top: 55%;
     left: 6%;
     height: 50px;
 }
@@ -147,15 +152,15 @@ body
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 302%;
+    top: 58%;
     left: 6%;
     height: 50px;
 }
 .m3
 {
     position: absolute;
-    top: 336%;
-    left: 55%;
+    top: 81%;
+    left: 53.5%;
     height: 50px;
     width: 50px; 
 }
@@ -163,23 +168,23 @@ body
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 336%;
-    left: 60%;
+    top: 81%;
+    left: 61%;
     height: 50px;
 }
 .allen-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 345%;
-    left: 58%;
+    top: 83%;
+    left: 61%;
     height: 50px;
 }
 .m2
 {
     position: absolute;
-    top: 284%;
-    left: 38%;
+    top: 49.5%;
+    left: 40.5%;
     height: 50px;
     width: 50px;
 }
@@ -187,7 +192,7 @@ body
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 284%;
+    top: 50.5%;
     left: 28%;
     height: 50px;
 }
@@ -195,10 +200,11 @@ body
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 293%;
+    top: 56.5%;
     left: 28%;
     height: 50px;
 }
+
 @font-face {
     font-family: 'DIN 30640 Std';
     src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot');
@@ -234,4 +240,3 @@ body
          url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.ttf')  format('truetype'),
          url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.svg#DIN 30640 Std') format('svg');
 }
-
