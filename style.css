@@ -32,6 +32,41 @@ body
     height: 60px;
     padding-left: 5px;
 }
+@font-face {
+    font-family: 'DIN 30640 Std';
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot');
+    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff2') format('woff2'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff') format('woff'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.ttf')  format('truetype'),
+         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
+}
+@font-face {
+    font-family: 'Neoteric-Bold';
+    src: url('fonts/Neoteric-Bold/Neoteric-Bold.eot');
+    src: url('fonts/Neoteric-Bold/Neoteric-Bold?#iefix') format('embedded-opentype'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.woff2') format('woff2'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.woff') format('woff'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.ttf')  format('truetype'),
+         url('fonts/Neoteric-Bold/Neoteric-Bold.svg#DIN 30640 Std') format('svg');
+}
+@font-face {
+    font-family: 'Bebas-Neue-Pro-Book';
+    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.eot');
+    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book?#iefix') format('embedded-opentype'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff2') format('woff2'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff') format('woff'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.ttf')  format('truetype'),
+         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.svg#DIN 30640 Std') format('svg');
+}
+@font-face {
+    font-family: 'Bahij_Janna-Regular';
+    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.eot');
+    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular?#iefix') format('embedded-opentype'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.woff') format('woff'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.ttf')  format('truetype'),
+         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.svg#DIN 30640 Std') format('svg');
+}
 #landing-title
 {
     padding-top: 130px;
@@ -130,7 +165,9 @@ body
 }
 .tlpic
 {
-    padding-right: 30px;
+	height: 800px;
+	width: 1400px;
+	padding-right: 30px;
 }
 .m1
 {
@@ -204,39 +241,22 @@ body
     left: 28%;
     height: 50px;
 }
-
-@font-face {
-    font-family: 'DIN 30640 Std';
-    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot');
-    src: url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff2') format('woff2'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.woff') format('woff'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.ttf')  format('truetype'),
-         url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
+#skills
+{
+	position: relative;	
 }
-@font-face {
+#skills-text
+{
+	position: absolute;
+    top: 15%;
+    left: 10%;
     font-family: 'Neoteric-Bold';
-    src: url('fonts/Neoteric-Bold/Neoteric-Bold.eot');
-    src: url('fonts/Neoteric-Bold/Neoteric-Bold?#iefix') format('embedded-opentype'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.woff2') format('woff2'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.woff') format('woff'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.ttf')  format('truetype'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.svg#DIN 30640 Std') format('svg');
+    font-size: 40px;
+    color: #524E4B;   
 }
-@font-face {
-    font-family: 'Bebas-Neue-Pro-Book';
-    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.eot');
-    src: url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book?#iefix') format('embedded-opentype'),
-         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff2') format('woff2'),
-         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff') format('woff'),
-         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.ttf')  format('truetype'),
-         url('fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.svg#DIN 30640 Std') format('svg');
-}
-@font-face {
-    font-family: 'Bahij_Janna-Regular';
-    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.eot');
-    src: url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular?#iefix') format('embedded-opentype'),
-         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.woff') format('woff'),
-         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.ttf')  format('truetype'),
-         url('fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.svg#DIN 30640 Std') format('svg');
+.skills-img
+{
+	height: 800px;
+	width: 1400px;
+	padding-top: -150px;
 }
