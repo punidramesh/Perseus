@@ -125,11 +125,12 @@ body
 .tlpic
 {
     margin-top: -150px;
+    padding-right: 30px;
 }
 .m1
 {
     position: absolute;
-    top: 298%;
+    top: 294%;
     left: 16%;
     height: 50px;
     width: 50px;
@@ -138,8 +139,8 @@ body
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 292%;
-    left: 8%;
+    top: 293%;
+    left: 6%;
     height: 50px;
 }
 .ryan-sub
@@ -147,55 +148,55 @@ body
     position: absolute;
     font-family: 'Permanent Marker', cursive;
     top: 302%;
-    left: 8%;
+    left: 6%;
     height: 50px;
 }
-.m2
+.m3
 {
     position: absolute;
-    top: 288%;
-    left: 40%;
+    top: 336%;
+    left: 55%;
     height: 50px;
-    width: 50px;
+    width: 50px; 
 }
 .allen
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 345%;
-    left: 65%;
+    top: 336%;
+    left: 60%;
     height: 50px;
 }
 .allen-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 355%;
-    left: 61%;
+    top: 345%;
+    left: 58%;
     height: 50px;
 }
-.m3
+.m2
 {
     position: absolute;
-    top: 345%;
-    left: 60%;
+    top: 284%;
+    left: 38%;
     height: 50px;
-    width: 50px; 
+    width: 50px;
 }
 .vit
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 287%;
-    left: 30%;
+    top: 284%;
+    left: 28%;
     height: 50px;
 }
 .vit-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 297%;
-    left: 30%;
+    top: 293%;
+    left: 28%;
     height: 50px;
 }
 @font-face {
