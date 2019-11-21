@@ -99,16 +99,16 @@ body
     position: absolute;
     top: 35%;
     left: 10%;
-    height: 43px;
-    width: 150px;
+    height: 3.5vw;
+    width: 11.5vw;
 }
 .me
 {
     position: absolute;
     top: 35%;
-    left: 70%;
-    height: 325px;
-    width: 325px;
+	left: 70vw;
+    height: 27vw;
+    width: 27vw;
 }
 
 .name
@@ -117,7 +117,7 @@ body
     top: 43%;
     left: 10%;
     font-family: 'DIN 30640 Std';
-    font-size: 80px;
+    font-size: 6vw;
 	color: #524E4B;
 }
 .abt{
@@ -125,7 +125,7 @@ body
     top: 20%;
     left: 10%;
     font-family: 'Neoteric-Bold';
-    font-size: 40px;
+    font-size: 4vw;
     color: #524E4B;      
 }
 .desig
@@ -134,7 +134,7 @@ body
     top: 55%;
     left: 10%;
     font-family: 'Bebas-Neue-Pro-Book';
-    font-size: 30px;
+    font-size: 2vw;
     color: #524E4B;
 }
 .info
@@ -143,12 +143,14 @@ body
     top: 65%;
     left: 10%;
     font-family: 'Permanent Marker';
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #524E4B;
 }
 .about-img
 {
-    margin-top: -80px;
+	height: 60vw;
+	width: 120vw;
+	margin-top: -80px;
 }
 #timeline
 {
@@ -160,7 +162,7 @@ body
     top: 15%;
     left: 10%;
     font-family: 'Neoteric-Bold';
-    font-size: 40px;
+    font-size: 4vw;
     color: #524E4B;   
 }
 .tlpic
@@ -172,74 +174,74 @@ body
 .m1
 {
     position: absolute;
-    top: 57.5%;
+    top: 55.5%;
     left: 16%;
-    height: 50px;
-    width: 50px;
+    height: 5vw;
+    width: 5vw;
 }
 .ryan
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
     top: 55%;
-    left: 6%;
-    height: 50px;
+    left: 5%;
+	font-size: 1.3vw;
 }
 .ryan-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
     top: 58%;
-    left: 6%;
-    height: 50px;
+    left: 5%;
+	font-size: 1.3vw;
 }
 .m3
 {
     position: absolute;
-    top: 81%;
-    left: 53.5%;
-    height: 50px;
-    width: 50px; 
+    top: 79%;
+    left: 48.5%;
+    height: 5vw;
+    width: 5vw;
 }
 .allen
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 81%;
-    left: 61%;
-    height: 50px;
+    top: 79%;
+    left: 56%;
+	font-size: 1.3vw;
 }
 .allen-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 83%;
-    left: 61%;
-    height: 50px;
+    top: 81%;
+    left: 56%;
+	font-size: 1.3vw;
 }
 .m2
 {
     position: absolute;
     top: 49.5%;
-    left: 40.5%;
-    height: 50px;
-    width: 50px;
+    left: 35.2%;
+    height: 5vw;
+    width: 5vw;
 }
 .vit
 {
     position: absolute;
     font-family: 'Neoteric-Bold';
-    top: 50.5%;
-    left: 28%;
-    height: 50px;
+    top: 48.5%;
+    left: 25.5%;
+	font-size: 1.3vw;
 }
 .vit-sub
 {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    top: 56.5%;
-    left: 28%;
-    height: 50px;
+	top: 54.5%;
+    left: 25.5%;
+	font-size: 1.25vw;
 }
 #skills
 {
@@ -251,12 +253,10 @@ body
     top: 15%;
     left: 10%;
     font-family: 'Neoteric-Bold';
-    font-size: 40px;
+    font-size: 4vw;
     color: #524E4B;   
 }
 .skills-img
 {
-	height: 800px;
-	width: 1400px;
 	padding-top: -150px;
 }
