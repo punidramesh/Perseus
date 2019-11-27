@@ -263,7 +263,7 @@ body
     color: #524E4B;
 }
 
-.fid{
+	.fid{
 	font-family:'Permanent Marker';
 	font-size: 2vw;
 	margin-bottom: 2vw;
@@ -275,7 +275,19 @@ body
 	line-height: 1vw;
 	text-align: center;
   }
-  
+  .bid{
+	font-family:'Permanent Marker';
+	font-size: 2vw;
+	margin-top: -19vw;
+	text-align: center;
+  }
+  .btext{
+	font-family: "Roboto", sans-serif;
+	color: #555;
+	margin-top: 2.5vw;
+	line-height: 2vw;
+	text-align: center;
+  }
   .cardContainer1{
 	position: absolute;
 	width: 25vw;
@@ -381,10 +393,6 @@ body
   }
   .front .img3 {
 	background-image: url("images/iothinc.png");
-  }
-  .back li {
-	padding-top: -15vw;  
-	line-height: 2vw;
   }
 
 /*Mobile View stuff*/
