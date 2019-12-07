@@ -868,6 +868,12 @@ body .btn2 {
 	  padding: 0;
 	}
   }
+.arrow{
+	margin-left: 95vw;
+	height: 5vw;
+	width: 2vw;
+	margin-top: -10vw;
+}  
 /*Mobile View stuff*/
 
 @media only screen and (max-width: 768px) {
