@@ -209,7 +209,7 @@ body
 {
     position: absolute;
     top: 79%;
-    left: 52%;
+    left: 50.9%;
     height: 5vw;
     width: 5vw;
 }
@@ -233,7 +233,7 @@ body
 {
     position: absolute;
     top: 48.5%;
-    left: 38.45%;
+    left: 37.9%;
     height: 5vw;
     width: 5vw;
 }
@@ -921,7 +921,7 @@ body .btn2 {
 			height: 35vw;
 			width: 35vw;
 	}
-	.im
+	#im
 	{
 		position: absolute;
 		top: 73vw;
@@ -1070,9 +1070,10 @@ body .btn2 {
     }
 	.fid{
 		font-family:'Permanent Marker';
-		font-size: 4vw;
+		font-size: 3.5vw;
 		margin-bottom: 16vw;
 		margin-top: -98vw;
+		margin-right: 1vw;
 	}
 	.ftext{
 		font-family: "Roboto", sans-serif;
@@ -1196,184 +1197,265 @@ body .btn2 {
 	{
 	font-family: 'Permanent Marker';	
 	font-size: 1.5vw;
-}
-#ml
+	}
+	#ml
+	{
+		font-family: 'Permanent Marker';
+		font-size: 1.5vw;
+	}
+	#photoshop
+	{
+		font-family: 'Permanent Marker';
+		font-size: 1.5vw;
+	}
+	#web
+	{
+		font-family: 'Permanent Marker';
+		font-size: 1.5vw;
+	}
+	.grid-container {
+		position: absolute;
+		display: grid;
+		padding-left: 5vw;
+		grid-template-columns: auto auto auto;
+		padding-top: 20vw;
+		grid-row-gap: 10vw;
+		grid-column-gap: 15vw;
+		
+	}
+	.pie-wrapper {
+		display: inline-block;
+		height: 200px;
+		margin: 10px;
+		position: relative;
+		width: 200px;
+	}
+	.pie-wrapper .pie {
+		clip: rect(0, 200px, 200px, 100px);
+		height: 200px;
+		position: absolute;
+		width: 200px;
+	}
+	.pie-wrapper .pie .half-circle {
+		border: 20px solid #3498db;
+		border-radius: 50%;
+		clip: rect(0, 100px, 200px, 0);
+		height: 200px;
+		position: absolute;
+		width: 200px;
+	}
+	.pie-wrapper .label {
+		background: #354759;
+		border-radius: 50%;
+		color: #ecf0f1;
+		cursor: default;
+		display: block;
+		font-size: 3em;
+		height: 160px;
+		left: 10%;
+		line-height: 3em;
+		position: absolute;
+		text-align: center;
+		top: 10%;
+		width: 160px;
+	}
+	.pie-wrapper .label .smaller {
+		color: #bdc3c7;
+		font-size: 0.45em;
+		padding-bottom: 20px;
+		vertical-align: super;
+	}
+	.pie-wrapper.style-2 .shadow {
+		border: 20px solid #bdc3c7;
+		border-radius: 50%;
+		height: 100%;
+		width: 100%;
+	}
+	.pie-wrapper.style-2 .label {
+		background: none;
+		color: #524E4B;
+	}
+	.pie-wrapper.style-2 .label .smaller {
+		color: #bdc3c7;
+	}
+	.pie-wrapper.progress-python .pie {
+		clip: rect(auto, auto, auto, auto);
+	}
+	.pie-wrapper.progress-python .pie .right-side {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.pie-wrapper.progress-python .pie .half-circle {
+		border-color: #93EDC7;
+	}
+	.pie-wrapper.progress-python .pie .left-side {
+		-webkit-transform: rotate(216deg);
+		-moz-transform: rotate(216deg);
+		-ms-transform: rotate(216deg);
+		-o-transform: rotate(216deg);
+		transform: rotate(216deg);
+	}
+	.pie-wrapper.progress-java .pie {
+		clip: rect(auto, auto, auto, auto);
+	}
+	.pie-wrapper.progress-java .pie .right-side {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.pie-wrapper.progress-java .pie .half-circle {
+		border-color: #F3A183;
+	}
+	.pie-wrapper.progress-java .pie .left-side {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.pie-wrapper.progress-ml .pie .right-side {
+		display: none;
+	}
+	.pie-wrapper.progress-ml .pie .half-circle {
+		border-color: #ff7e5f;
+	}
+	.pie-wrapper.progress-ml .pie .left-side {
+		-webkit-transform: rotate(108deg);
+		-moz-transform: rotate(108deg);
+		-ms-transform: rotate(108deg);
+		-o-transform: rotate(108deg);
+		transform: rotate(108deg);
+	}  
+	.pie-wrapper.progress-photoshop .pie .right-side {
+		display: none;
+	}
+	.pie-wrapper.progress-photoshop .pie .half-circle {
+		border-color: #4776E6;
+	}
+	.pie-wrapper.progress-photoshop .pie .left-side {
+		-webkit-transform: rotate(108deg);
+		-moz-transform: rotate(108deg);
+		-ms-transform: rotate(108deg);
+		-o-transform: rotate(108deg);
+		transform: rotate(108deg);
+	}  
+	.pie-wrapper.progress-web .pie .right-side {
+		display: none;
+	}
+	.pie-wrapper.progress-web .pie .half-circle {
+		border-color: #ED4264;
+	}
+	.pie-wrapper.progress-web .pie .left-side {
+		-webkit-transform: rotate(72deg);
+		-moz-transform: rotate(72deg);
+		-ms-transform: rotate(72deg);
+		-o-transform: rotate(72deg);
+		transform: rotate(72deg);
+	}  
+	.pie-wrapper.progress-c .pie {
+		clip: rect(auto, auto, auto, auto);
+	}
+	.pie-wrapper.progress-c .pie .right-side {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.pie-wrapper.progress-c .pie .half-circle {
+		border-color: #96DEDA;
+	}
+	.pie-wrapper.progress-c .pie .left-side {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	} 
+	#resume
 {
-	font-family: 'Permanent Marker';
-	font-size: 1.5vw;
-}
-#photoshop
-{
-	font-family: 'Permanent Marker';
-	font-size: 1.5vw;
-}
-#web
-{
-	font-family: 'Permanent Marker';
-	font-size: 1.5vw;
-}
-.grid-container {
-	position: absolute;
-	display: grid;
-	padding-left: 5vw;
-	grid-template-columns: auto auto auto;
-	padding-top: 20vw;
-	grid-row-gap: 10vw;
-	grid-column-gap: 15vw;
-	
-}
-.pie-wrapper {
-	display: inline-block;
-	height: 200px;
-	margin: 10px;
 	position: relative;
-	width: 200px;
-  }
-  .pie-wrapper .pie {
-	clip: rect(0, 200px, 200px, 100px);
-	height: 200px;
+} 
+#resume-text
+{
+	position: relative;
+    top: 21vw;
+    left: 10vw;
+    font-family: 'Neoteric-Bold';
+    font-size: 4vw;
+    color: #524E4B;
+} 
+.rtxt
+{
+	position: relative;
+	font-family: 'DIN 30640 Std';
+	font-size: 7vw;
+    top: 50vw;
+    left: 55vw;
+}
+body .btn,
+body .btn2 {
 	position: absolute;
-	width: 200px;
-  }
-  .pie-wrapper .pie .half-circle {
-	border: 20px solid #3498db;
-	border-radius: 50%;
-	clip: rect(0, 100px, 200px, 0);
-	height: 200px;
-	position: absolute;
-	width: 200px;
-  }
-  .pie-wrapper .label {
-	background: #354759;
-	border-radius: 50%;
-	color: #ecf0f1;
-	cursor: default;
-	display: block;
-	font-size: 3em;
-	height: 160px;
-	left: 10%;
-	line-height: 3em;
-	position: absolute;
+	  top: 80.5vw;
+	  left: 64vw;
+	width: 20.4375vw;
+	height: 8.8125vw;
+	font-size: 2.04375vw;
 	text-align: center;
-	top: 10%;
-	width: 160px;
-  }
-  .pie-wrapper .label .smaller {
-	color: #bdc3c7;
-	font-size: 0.45em;
-	padding-bottom: 20px;
-	vertical-align: super;
-  }
-  .pie-wrapper.style-2 .shadow {
-	border: 20px solid #bdc3c7;
-	border-radius: 50%;
-	height: 100%;
-	width: 100%;
-  }
-  .pie-wrapper.style-2 .label {
-	background: none;
-	color: #524E4B;
-  }
-  .pie-wrapper.style-2 .label .smaller {
-	color: #bdc3c7;
-  }
-  .pie-wrapper.progress-python .pie {
-	clip: rect(auto, auto, auto, auto);
-  }
-  .pie-wrapper.progress-python .pie .right-side {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-  }
-  .pie-wrapper.progress-python .pie .half-circle {
-	border-color: #93EDC7;
-  }
-  .pie-wrapper.progress-python .pie .left-side {
-	-webkit-transform: rotate(216deg);
-	-moz-transform: rotate(216deg);
-	-ms-transform: rotate(216deg);
-	-o-transform: rotate(216deg);
-	transform: rotate(216deg);
-  }
-  .pie-wrapper.progress-java .pie {
-	clip: rect(auto, auto, auto, auto);
-  }
-  .pie-wrapper.progress-java .pie .right-side {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-  }
-  .pie-wrapper.progress-java .pie .half-circle {
-	border-color: #F3A183;
-  }
-  .pie-wrapper.progress-java .pie .left-side {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-  }
-  .pie-wrapper.progress-ml .pie .right-side {
-	display: none;
-  }
-  .pie-wrapper.progress-ml .pie .half-circle {
-	border-color: #ff7e5f;
-  }
-  .pie-wrapper.progress-ml .pie .left-side {
-	-webkit-transform: rotate(108deg);
-	-moz-transform: rotate(108deg);
-	-ms-transform: rotate(108deg);
-	-o-transform: rotate(108deg);
-	transform: rotate(108deg);
-  }  
-  .pie-wrapper.progress-photoshop .pie .right-side {
-	display: none;
-  }
-  .pie-wrapper.progress-photoshop .pie .half-circle {
-	border-color: #4776E6;
-  }
-  .pie-wrapper.progress-photoshop .pie .left-side {
-	-webkit-transform: rotate(108deg);
-	-moz-transform: rotate(108deg);
-	-ms-transform: rotate(108deg);
-	-o-transform: rotate(108deg);
-	transform: rotate(108deg);
-  }  
-  .pie-wrapper.progress-web .pie .right-side {
-	display: none;
-  }
-  .pie-wrapper.progress-web .pie .half-circle {
-	border-color: #ED4264;
-  }
-  .pie-wrapper.progress-web .pie .left-side {
-	-webkit-transform: rotate(72deg);
-	-moz-transform: rotate(72deg);
-	-ms-transform: rotate(72deg);
-	-o-transform: rotate(72deg);
-	transform: rotate(72deg);
-  }  
-  .pie-wrapper.progress-c .pie {
-	clip: rect(auto, auto, auto, auto);
-  }
-  .pie-wrapper.progress-c .pie .right-side {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-  }
-  .pie-wrapper.progress-c .pie .half-circle {
-	border-color: #96DEDA;
-  }
-  .pie-wrapper.progress-c .pie .left-side {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-  } 
+	line-height: 6.0125vw;
+	color: rgba(255,255,255,0.9);
+	border-radius: 50px;
+	background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+	background-size: 600%;
+	-webkit-animation: anime 16s linear infinite;
+			animation: anime 16s linear infinite;
+	}
+	body .btn2 {
+		margin-top: -80.46875vw;
+		left: -0.1vw;
+		z-index: -1;
+		-webkit-filter: blur(2.34375vw);
+				filter: blur(2.34375vw);
+		opacity: 0.8;
+	}
+	@-webkit-keyframes anime {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+	@keyframes anime {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+	#t2
+	{
+		height: 75vw;
+		width: 50vw;
+	}
+	#c-text
+	{
+		display: none;
+	}
+	.arrow
+	{
+		display: none;
+	}
 }
