@@ -7,6 +7,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
 <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -23,22 +24,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#abt-div">ABOUT</a>
+                    <a class="nav-link" href="#abt">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#timeline">EDUCATION</a>
+                    <a class="nav-link" href="#edu-text">EDUCATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#activities">ACTIVITIES</a>    
+                    <a class="nav-link" href="#act-text">ACTIVITIES</a>    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#skills" >SKILLS</a>    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">RESUME</a>
+                    <a class="nav-link" href="#resume-text">RESUME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#c-text">CONTACT</a>
                 </li>
                 </ul>
             </div>
@@ -59,7 +60,7 @@
 
     <section id = "about">
         <div id = "abt-div">
-            <p class = "abt">ABOUT</p>
+            <p id = "abt">ABOUT</p>
             <p class = "name">Punid Ramesh</p>
             <p class = "desig">Student Developer</p>
             <p class = "info">Hey, there ! <br>I'm a sophomore at Vellore Institute of Technology.<br>
@@ -68,7 +69,7 @@
             with Specialization in IoT and Sensors<br>
             Currently developing skills in Internet of Things</p>
             <img src = "images/about-bg2.png"class = "about-img">
-            <img src = "images/im.png" class = "im">
+            <img src = "images/im.png" id = "im">
             <img src = "images/me.png" class = "me">
         </div>
     </section>
@@ -99,7 +100,7 @@
                     <div class="info">
                         <h2 class = "fid">TEAM SAMMARD</h2>
                         <p class = "ftext">Electronics Team Member</p>
-                        <p class = "ftext">Aug 2019 - Present</p>
+                        <p class = "ftext">Aug 2019 - Dec 2019</p>
                     </div>
                 </div>
                 <div class="back">
@@ -147,7 +148,7 @@
                     <div class = "info">
                         <h2 class = "fid">IoThinC</h2>
                         <p class = "ftext">Technical Team Member</p>
-                        <p class = "ftext">Mar 2019 - Present</p>
+                        <p class = "ftext">Mar 2019 - Dec 2019</p>
                     </div>    
                 </div>
                 <div class="back">
@@ -155,7 +156,6 @@
                         <h2 class = "bid">At a glance ‏‏‎  ‏‏‎ </h2>
                         <ul>
                             <li class = "btext">We aim to provide a platform for students to explore and build incredible things using Internet of Things</li>
-                            <li class = "btext">Working on projects</li>
                         </ul>
                     </div>   
                 </div>
@@ -223,6 +223,62 @@
                 <p class id  = "web">HTML/CSS</p> 
             </div>                  
         </div>    
+    </section>
+
+    <section id = "resume">
+        <div class = r-container>
+            <p id = "resume-text">RESUME</p>
+            <p class = rtxt>  Grab my resume</p>
+            <br><br><img  id = 't2' src = 'images/t3.jpg' height = 600px width = 550px>              
+            <a href = "https://drive.google.com/open?id=1uH6ihq4dYOGzEHmhKNj7atmUtuqqyxO2" target="_blank">
+                <div class="btn">DOWNLOAD
+                <div class="btn2"></div>
+                </div>
+            </a>
+    </section>
+    <section id = "contact">
+        <p id = "c-text">CONTACT</p><br><br><br>
+        <div class="f-background">
+                <div class="c-container">
+                    <div class="screen">
+                    <div class="screen-header">
+                        <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                        </div>
+                        <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        </div>
+                    </div>
+                    <div class="screen-body">
+                        <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>ME</span>
+                        </div>
+                        </div>
+                        <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME">
+                                </div>
+                                <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                                </div>
+                                <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE">
+                                </div>
+                                <div class="app-form-group buttons">
+                                <button class="app-form-button">SEND</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </div>            
     </section>
 </body>
 <html>
