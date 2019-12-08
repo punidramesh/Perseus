@@ -876,13 +876,13 @@ body .btn2 {
 }  
 /*Mobile View stuff*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 720px) {
 	#landing-title
 	{
 		top: 20%;
 		left: 10%;
 		font-family: 'DIN 30640 Std';
-		font-size: 20vw;
+		font-size: 23vw;
 		color: #524E4B;
 		text-align: center 
 	}
@@ -907,7 +907,7 @@ body .btn2 {
 	}
 	.abt{
 		position: absolute;
-		top: 20%;
+		top: 1%;
 		left: 10%;
 		font-family: 'Neoteric-Bold';
 		font-size: 4vw;
@@ -916,7 +916,7 @@ body .btn2 {
 	.me
 	{
 			position: absolute;
-			left: 31vw;
+			left: 32vw;
 			top: 25%;
 			height: 35vw;
 			width: 35vw;
@@ -926,13 +926,13 @@ body .btn2 {
 		position: absolute;
 		top: 73vw;
 		left: 43vw;
-		height: 3.5vw;
-		width: 11.5vw;
+		height: 5.5vw;
+		width: 13.5vw;
 	}
 	.name
 	{
 		position: absolute;
-		top: 79vw;
+		top: 81vw;
 		left: 35.5vw;
 		font-family: 'DIN 30640 Std';
 		font-size: 6vw;
@@ -942,16 +942,17 @@ body .btn2 {
 	.desig
 	{
 		position: absolute;
-		top: 87vw;
-		left: 43vw;
+		top: 88vw;
+		left: 38.4vw;
 		font-family: 'Bebas-Neue-Pro-Book';
-		font-size: 2vw;
+		font-size: 4vw;
 		color: #524E4B;
+		margin-bottom: 5vw;
 	}
 	.info
 	{
 		position: absolute;
-		top: 93vw;
+		top: 103vw;
 		left: 10vw;
 		text-align: center;
 		font-family: 'Permanent Marker';
@@ -984,7 +985,7 @@ body .btn2 {
 	.m1
 	{
 		position: absolute;
-		top: 55.75%;
+		top:52.75%;
 		left: 11.5%;
 		height: 5vw;
 		width: 5vw;
@@ -1008,7 +1009,7 @@ body .btn2 {
 	.m3
 	{
 		position: absolute;
-		top: 81%;
+		top: 70.2%;
 		left: 32%;
 		height: 5vw;
 		width: 5vw;
@@ -1018,7 +1019,7 @@ body .btn2 {
 		position: absolute;
 		font-family: 'Neoteric-Bold';
 		top: 81%;
-		left: 17%;
+		left: 28%;
 		font-size: 3.3vw;
 	}
 	.allen-sub
@@ -1026,14 +1027,14 @@ body .btn2 {
 		position: absolute;
 		font-family: 'Permanent Marker', cursive;
 		top: 86%;
-		left: 17.75%;
+		left: 28.75%;
 		font-size: 2.3vw;
 	}
 	.m2
 	{
 		position: absolute;
-		top: 48.45%;
-		left: 27.7%;
+		top: 48.8%;
+		left: 26%;
 		height: 5vw;
 		width: 5vw;
 	}
@@ -1042,7 +1043,7 @@ body .btn2 {
 		position: absolute;
 		font-family: 'Neoteric-Bold';
 		top: 37.5%;
-		left: 24.75%;
+		left: 20.75%;
 		font-size: 3.3vw;
 	}
 	.vit-sub
@@ -1050,7 +1051,7 @@ body .btn2 {
 		position: absolute;
 		font-family: 'Permanent Marker', cursive;
 		top: 44.5%;
-		left: 25.5%;
+		left: 22%;
 		font-size: 2.3vw;
 	}
 	#act-text
@@ -1170,58 +1171,92 @@ body .btn2 {
 		top: 8vw;
 		left: 10vw;
 		font-family: 'Neoteric-Bold';
-		font-size: 4vw;
+		font-size: 6vw;
+		margin-bottom: 10vw;
 		color: #524E4B;
 	} 
 	.skill-txt
 	{
-	position: relative;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	padding-top: 20vw;
-	grid-row-gap: 55vw;
-	grid-column-gap: 20vw;
-	padding-right: 5vw;
-	}
-	#python
-	{
-	font-family: 'Permanent Marker';
-	font-size: 1.5vw;
-	}
-	#java
-	{
-	font-family: 'Permanent Marker';
-	font-size: 1.5vw;
-	}
-	#cpp
-	{
-	font-family: 'Permanent Marker';	
-	font-size: 1.5vw;
-	}
-	#ml
-	{
-		font-family: 'Permanent Marker';
-		font-size: 1.5vw;
-	}
-	#photoshop
-	{
-		font-family: 'Permanent Marker';
-		font-size: 1.5vw;
-	}
-	#web
-	{
-		font-family: 'Permanent Marker';
-		font-size: 1.5vw;
+		position: relative;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding-top: 20vw;
+		grid-row-gap: 55vw;
+		grid-column-gap: 20vw;
+		margin-left: 15vw;
 	}
 	.grid-container {
 		position: absolute;
 		display: grid;
-		padding-left: 5vw;
 		grid-template-columns: auto auto auto;
 		padding-top: 20vw;
-		grid-row-gap: 10vw;
-		grid-column-gap: 15vw;
+		grid-row-gap: 20vw;
+		grid-column-gap: 8vw;
+		margin-left: 19vw;
 		
+	}
+	#python
+	{
+		font-family: 'Permanent Marker';
+		font-size: 3.5vw;
+		grid-row: 1;
+		margin-top: 10vw;
+	}
+	.pie-wrapper.progress-python
+	{
+		grid-row: 1;
+		margin-top: 10vw;
+	}
+	#java
+	{
+		font-family: 'Permanent Marker';
+		font-size: 3.5vw;
+		grid-row: 2;
+	}
+	.pie-wrapper.progress-java
+	{
+		grid-row: 2;
+	}
+	#cpp
+	{
+		font-family: 'Permanent Marker';	
+		font-size: 3.5vw;
+		grid-row: 3;
+	}
+	.pie-wrapper.progress-c
+	{
+		grid-row: 3;
+	}
+	#ml
+	{
+		font-family: 'Permanent Marker';
+		font-size: 3.5vw;
+		grid-row: 4;
+	}
+	.pie-wrapper.progress-ml
+	{
+		grid-row: 4;
+	}
+	#photoshop
+	{
+		font-family: 'Permanent Marker';
+		font-size: 3.5vw;
+		grid-row: 5;
+	}
+	.pie-wrapper.progress-photoshop
+	{
+		grid-row: 5;
+	}
+	#web
+	{
+		font-family: 'Permanent Marker';
+		font-size: 3.5vw;
+		grid-row: 6;
+	}
+	.pie-wrapper.progress-web
+	{
+		grid-row: 6;
+		margin-bottom: 20vw;
 	}
 	.pie-wrapper {
 		display: inline-block;
@@ -1378,45 +1413,40 @@ body .btn2 {
 		transform: rotate(180deg);
 	} 
 	#resume
-{
+	{
 	position: relative;
-} 
-#resume-text
-{
-	position: relative;
-    top: 21vw;
-    left: 10vw;
-    font-family: 'Neoteric-Bold';
-    font-size: 4vw;
-    color: #524E4B;
-} 
-.rtxt
-{
-	position: relative;
-	font-family: 'DIN 30640 Std';
-	font-size: 7vw;
-    top: 50vw;
-    left: 55vw;
-}
-body .btn,
-body .btn2 {
-	position: absolute;
-	  top: 80.5vw;
-	  left: 64vw;
-	width: 20.4375vw;
-	height: 8.8125vw;
-	font-size: 2.04375vw;
-	text-align: center;
-	line-height: 6.0125vw;
-	color: rgba(255,255,255,0.9);
-	border-radius: 50px;
-	background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
-	background-size: 600%;
-	-webkit-animation: anime 16s linear infinite;
-			animation: anime 16s linear infinite;
+	} 
+	#resume-text
+	{
+		display: none;
+	} 
+	.rtxt
+	{
+		position: relative;
+		font-family: 'DIN 30640 Std';
+		font-size: 7vw;
+		top: 165vw;
+		left: 31vw;
 	}
+	body .btn,
 	body .btn2 {
-		margin-top: -80.46875vw;
+		position: absolute;
+		top: 190.5vw;
+		left: 40vw;
+		width: 20.4375vw;
+		height: 8.8125vw;
+		font-size: 2.04375vw;
+		text-align: center;
+		line-height: 6.0125vw;
+		color: rgba(255,255,255,0.9);
+		border-radius: 50px;
+		background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+		background-size: 600%;
+		-webkit-animation: anime 16s linear infinite;
+				animation: anime 16s linear infinite;
+		}
+	body .btn2 {
+		margin-top: -190.46875vw;
 		left: -0.1vw;
 		z-index: -1;
 		-webkit-filter: blur(2.34375vw);
@@ -1445,16 +1475,24 @@ body .btn2 {
 			background-position: 0% 50%;
 		}
 	}
-	#t2
+	.t2 
 	{
-		height: 75vw;
-		width: 50vw;
+		margin-top: 20vw;
+		padding-right: 10vw;
 	}
 	#c-text
 	{
 		display: none;
 	}
+	#contact
+	{
+		margin-top: 45vw;
+	}
 	.arrow
+	{
+		display: none;
+	}
+	.screen-header-button 
 	{
 		display: none;
 	}
