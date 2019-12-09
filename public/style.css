@@ -4,20 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body
 {
     overflow-x: hidden; 
     font-family: 'Permanent Marker', cursive;
-}
-#particles-js
-{
-    height: 100%;
-    background: #ffffff;
-    justify-content: center;
-}
-.particles-js-canvas-el
-{
-    position: absolute;
 }
 #nav-bar
 {
@@ -51,13 +45,13 @@ body
          url('fonts/DINNeuzeitGroteskStd-BdCond/DINNeuzeitGroteskStd-BdCond.svg#DIN 30640 Std') format('svg');
 }
 @font-face {
-    font-family: 'Neoteric-Bold';
-    src: url('fonts/Neoteric-Bold/Neoteric-Bold.eot');
-    src: url('fonts/Neoteric-Bold/Neoteric-Bold?#iefix') format('embedded-opentype'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.woff2') format('woff2'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.woff') format('woff'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.ttf')  format('truetype'),
-         url('fonts/Neoteric-Bold/Neoteric-Bold.svg#DIN 30640 Std') format('svg');
+    font-family: 'Neoteric Bold';
+    src: url('fonts/Neoteric Bold/NeotericBold.eot');
+    src: url('fonts/Neoteric Bold/NeotericBold?#iefix') format('embedded-opentype'),
+         url('fonts/Neoteric Bold/NeotericBold.woff2') format('woff2'),
+         url('fonts/Neoteric Bold/NeotericBold.woff') format('woff'),
+         url('fonts/Neoteric Bold/NeotericBold.ttf')  format('truetype'),
+         url('fonts/Neoteric Bold/NeotericBold.svg#DIN 30640 Std') format('svg');
 }
 @font-face {
     font-family: 'Bebas-Neue-Pro-Book';
@@ -133,7 +127,7 @@ body
     position: absolute;
     top: 20%;
     left: 10%;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;      
 }
@@ -170,7 +164,7 @@ body
     position: absolute;
     top: 20%;
     left: 10%;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;   
 }
@@ -192,7 +186,7 @@ body
 .ryan
 {
     position: absolute;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     top: 55%;
     left: 5%;
 	font-size: 1.3vw;
@@ -216,7 +210,7 @@ body
 .allen
 {
     position: absolute;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     top: 79%;
     left: 59%;
 	font-size: 1.3vw;
@@ -240,7 +234,7 @@ body
 .vit
 {
     position: absolute;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     top: 48.5%;
     left: 28%;
 	font-size: 1.3vw;
@@ -267,7 +261,7 @@ body
 	position: absolute;
     top: 8vw;
     left: 10vw;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;
 }
@@ -289,6 +283,56 @@ body
 	line-height: 1vw;
 	text-align: center;
 }
+.dsct1
+{
+	font-family:'Permanent Marker';
+	font-size: 2vw;
+	text-align: center;
+	margin-top: 2.5vw;
+	margin-bottom: 1vw;
+	padding-left: 1.5vw;
+}
+.dsct2
+{
+	font-family: "Roboto", sans-serif;
+	color: #555;
+	line-height: 1vw;
+	text-align: center;
+	padding-left: 1.5vw;
+}
+.dsct3
+{
+	font-family: "Roboto", sans-serif;
+	color: #555;
+	line-height: 1vw;
+	text-align: center;
+	padding-left: 1.5vw;
+}
+.iot1
+{
+	font-family:'Permanent Marker';
+	font-size: 2vw;
+	text-align: center;
+	margin-top: 2.5vw;
+	margin-bottom: 1vw;
+	padding-left: 1vw;
+}
+.iot2
+{
+	font-family: "Roboto", sans-serif;
+	color: #555;
+	line-height: 1vw;
+	text-align: center;
+	padding-left: 1vw;
+}
+.iot3
+{
+	font-family: "Roboto", sans-serif;
+	color: #555;
+	line-height: 1vw;
+	text-align: center;
+	padding-left: 1vw;
+}
 .flipper .info{
 	padding: 16px;
 }
@@ -298,6 +342,7 @@ body
 	margin-top: -21vw;
 	text-align: center;
 	margin-bottom: 3vw;
+	padding-right: 1vw;
 }
 .btext{
     font-family: "Roboto", sans-serif;
@@ -373,6 +418,10 @@ body
 .back {
 	transform: rotateY(180deg);
 }
+.flip-container .info
+{
+	padding: 1.25vw;
+}
 #skills
 {
 	position: relative;
@@ -382,7 +431,7 @@ body
 	position: absolute;
     top: 8vw;
     left: 10vw;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;
 } 
@@ -599,7 +648,7 @@ body
 	position: relative;
     top: 21vw;
     left: 10vw;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;
 } 
@@ -663,7 +712,7 @@ body .btn2 {
 	position: relative;
     top: 11vw;
     left: 10vw;
-    font-family: 'Neoteric-Bold';
+    font-family: 'Neoteric Bold';
     font-size: 4vw;
     color: #524E4B;
 }
@@ -838,6 +887,46 @@ body .btn2 {
   
 
   @media screen and (max-width: 520px) {
+	.screen-body {
+	  flex-direction: column;
+	}
+  
+	.screen-body-item.left {
+	  margin-bottom: 30px;
+	}
+  
+	.app-title {
+	  flex-direction: row;
+	}
+  
+	.app-title span {
+	  margin-right: 12px;
+	}
+  
+	.app-title:after {
+	  display: none;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.screen-body {
+	  padding: 40px;
+	}
+  
+	.screen-body-item {
+	  padding: 0;
+	}
+  }
+.arrow{
+	margin-left: 95vw;
+	height: 5vw;
+	width: 2vw;
+	margin-top: -10vw;
+}  
+
+/*Mobile View stuff*/
+
+@media screen and (max-width: 520px) {
 	.screen-body {
 	  flex-direction: column;
 	}
