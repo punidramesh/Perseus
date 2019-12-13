@@ -435,50 +435,46 @@ body
     font-size: 4vw;
     color: #524E4B;
 } 
-.skill-txt
-{
-	position: relative;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	padding-top: 20vw;
-	grid-row-gap: 24vw;
-	grid-column-gap: 20vw;
-	padding-right: 5vw;
-}
 #python
 {
 	font-family: 'Permanent Marker';
 	font-size: 1.5vw;
+	margin-left: 5vw;
 }
 #java
 {
 	font-family: 'Permanent Marker';
 	font-size: 1.5vw;
+	margin-left: 5.9vw;
 }
 #cpp
 {
 	font-family: 'Permanent Marker';	
 	font-size: 1.5vw;
+	margin-left: 6.9vw;
 }
 #ml
 {
 	font-family: 'Permanent Marker';
 	font-size: 1.5vw;
+	margin-left: 6.7vw;
 }
 #photoshop
 {
 	font-family: 'Permanent Marker';
 	font-size: 1.5vw;
+	margin-left: 4vw;
 }
 #web
 {
 	font-family: 'Permanent Marker';
 	font-size: 1.5vw;
+	margin-left: 4vw;
 }
 .grid-container {
 	position: absolute;
 	display: grid;
-	padding-left: 5vw;
+	padding-left: 2.5vw;
 	grid-template-columns: auto auto auto;
 	padding-top: 20vw;
 	grid-row-gap: 10vw;
@@ -487,26 +483,28 @@ body
 }
 .pie-wrapper {
 	display: inline-block;
-	height: 200px;
-	margin: 10px;
+	height: 15.625vw;
+	margin: 0.78125vw;
 	position: relative;
-	width: 200px;
+	width: 15.625vw;
   }
-  .pie-wrapper .pie {
-	clip: rect(0, 200px, 200px, 100px);
-	height: 200px;
+  .pie-wrapper .pie { 
+	margin-top: 1.9vw;
+	clip: rect(0, 15.625vw, 15.625vw, 7.8125vw);
+	height: 15.625vw;
 	position: absolute;
-	width: 200px;
+	width: 15.625vw;
   }
   .pie-wrapper .pie .half-circle {
 	border: 20px solid #3498db;
 	border-radius: 50%;
-	clip: rect(0, 100px, 200px, 0);
-	height: 200px;
+	clip: rect(0, 7.8125vw, 15.625vw, 0);
+	height: 15.625vw;
 	position: absolute;
-	width: 200px;
+	width: 15.625vw;
   }
   .pie-wrapper .label {
+	margin-top: 5.3vw;	  
 	background: #354759;
 	border-radius: 50%;
 	color: #ecf0f1;
@@ -541,6 +539,7 @@ body
 	color: #bdc3c7;
   }
   .pie-wrapper.progress-python .pie {
+	margin-top: 0vw;	  
 	clip: rect(auto, auto, auto, auto);
   }
   .pie-wrapper.progress-python .pie .right-side {
@@ -643,27 +642,33 @@ body
 {
 	position: relative;
 } 
+#t2
+{
+	margin-top: 40vw;
+	height: 90vw;
+	width: 45vw;
+}
 #resume-text
 {
 	position: relative;
-    top: 21vw;
+    top: 81vw;
     left: 10vw;
     font-family: 'Neoteric Bold';
     font-size: 4vw;
-    color: #524E4B;
+	color: #524E4B;
 } 
 .rtxt
 {
 	position: relative;
 	font-family: 'DIN 30640 Std';
 	font-size: 7vw;
-    top: 25vw;
+    top: 85vw;
     left: 55vw;
 }
 body .btn,
 body .btn2 {
 	position: absolute;
-	  top: 50.5vw;
+	  top: 110.5vw;
 	  left: 70vw;
 	width: 10.4375vw;
 	height: 3.8125vw;
@@ -678,7 +683,7 @@ body .btn2 {
 			animation: anime 16s linear infinite;
 	}
 body .btn2 {
-	margin-top: -50.46875vw;
+	margin-top: -110.46875vw;
 	left: -0.1vw;
 	z-index: -1;
 	-webkit-filter: blur(2.34375vw);
@@ -710,13 +715,14 @@ body .btn2 {
 #c-text
 {
 	position: relative;
-    top: 11vw;
+    top: -3vw;
     left: 10vw;
     font-family: 'Neoteric Bold';
     font-size: 4vw;
-    color: #524E4B;
+	color: #524E4B;
 }
 .f-background {
+	top: -10vw;
 	display: flex;
 	min-height: 100vh;
   }
@@ -886,7 +892,7 @@ body .btn2 {
   }
   
 
-  @media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
 	.screen-body {
 	  flex-direction: column;
 	}
@@ -924,45 +930,6 @@ body .btn2 {
 	margin-top: -10vw;
 }  
 
-/*Mobile View stuff*/
-
-@media screen and (max-width: 520px) {
-	.screen-body {
-	  flex-direction: column;
-	}
-  
-	.screen-body-item.left {
-	  margin-bottom: 30px;
-	}
-  
-	.app-title {
-	  flex-direction: row;
-	}
-  
-	.app-title span {
-	  margin-right: 12px;
-	}
-  
-	.app-title:after {
-	  display: none;
-	}
-  }
-  
-  @media screen and (max-width: 600px) {
-	.screen-body {
-	  padding: 40px;
-	}
-  
-	.screen-body-item {
-	  padding: 0;
-	}
-  }
-.arrow{
-	margin-left: 95vw;
-	height: 5vw;
-	width: 2vw;
-	margin-top: -10vw;
-}  
 /*Mobile View stuff*/
 
 @media only screen and (max-width: 720px) {
@@ -994,18 +961,19 @@ body .btn2 {
 		width: 180vw;
 		margin-top: -80px;
 	}
-	.abt{
+	#abt{
+		padding-top: 40vw;
 		position: absolute;
-		top: 1%;
-		left: 10%;
+		top: -15vw;
+		left: 25%;
 		font-family: 'Neoteric-Bold';
-		font-size: 4vw;
+		font-size: 6vw;
 		color: #524E4B;      
 	}
 	.me
 	{
 			position: absolute;
-			left: 32vw;
+			left: 32.5vw;
 			top: 25%;
 			height: 35vw;
 			width: 35vw;
@@ -1058,8 +1026,8 @@ body .btn2 {
 	#edu-text
 	{
 		position: absolute;
-		top: 10%;
-		left: 5%;
+		top: 13%;
+		left: 14%;
 		font-family: 'Neoteric-Bold';
 		font-size: 6vw;
 		color: #524E4B;   
@@ -1145,110 +1113,58 @@ body .btn2 {
 	}
 	#act-text
     {
-		position: absolute;
-		top: 14%;
-		left: 14%;
-		font-family: 'Neoteric-Bold';
-		font-size: 6vw;
-		color: #524E4B;
+		display: none;
     }
 	.act-img
     {
-		top: -80vw;
-		height: 255vw;
-		width: 150vw;
+		display: none;
     }
 	.fid{
-		font-family:'Permanent Marker';
-		font-size: 3.5vw;
-		margin-bottom: 16vw;
-		margin-top: -98vw;
-		margin-right: 1vw;
+		display: none;
 	}
 	.ftext{
-		font-family: "Roboto", sans-serif;
-		margin-right: 10vw;
-		color: #555;
-		line-height: 4vw;
+		display: none;
 	}
 	.bid{
-		font-family:'Permanent Marker';
-		font-size: 0.1vw;
-		color: transparent;
-		margin-top: -81vw;
-		text-align: center;
-		margin-bottom: 3vw;
+		display: none;
 	}
 	.btext{
-		font-family: "Roboto", sans-serif;
-		font-size: 0.1vw;
-		color: transparent;
-		line-height: 2vw;
-		text-align: center;
-		margin-bottom: 2vw;
-		margin-top: -1vw;
+		display: none;
 	}
 	.flipper .info{
-		padding: 8vw;
+		display: none;
 	}
 	.cardContainer1{
-		position: absolute;
-		top: 65vw;
-		left: 23vw;
-		margin-right: 5vw;
-		-webkit-perspective: 1000px;
-				perspective: 1000px;
+		display: none;
 	}
 	.cardContainer2{
-		position: absolute;
-		top: 125vw;
-		left: 23vw;
-		margin-right: 5vw;
-		-webkit-perspective: 1000px;
-				perspective: 1000px;
+		display: none;
 	}
 	.cardContainer3{
-		position: absolute;
-		top: 185vw;
-		left: 23vw;
-		margin-right: 5vw;
-		-webkit-perspective: 1000px;
-				perspective: 1000px;
+		display: none;
 	}
 
 	.flipper {
-		display: inline-block;
-		width: 50vw;
-		height: 50vw;
-		border-radius: 2vw;
-		cursor: pointer;
+		display: none;
 		
 	}
 	.front{
-		backface-visibility: hidden;
-		position: absolute;
-		top: 0;
-		left: 0;
+		display: none;
 	}
 	.front {
-		z-index: 2;
-		transform: rotateY(0deg);
+		display: none;
 	}
 	.img1
 	{
-		height: 20vw;
-		width: 20vw;
+		display: none;
 	}
 	.img2
 	{
-		height: 20vw;
-		width: 20vw;
+		display: none;
 	}
 	.img3
 	{
-		height: 20vw;
-		width: 20vw;
-		padding-left: 1.5vw;
+		display: none;
 	}
 	#skills
 	{
@@ -1258,49 +1174,44 @@ body .btn2 {
 	{
 		position: absolute;
 		top: 8vw;
-		left: 10vw;
+		left: 39%;
 		font-family: 'Neoteric-Bold';
 		font-size: 6vw;
 		margin-bottom: 10vw;
 		color: #524E4B;
 	} 
-	.skill-txt
-	{
+	.grid-container {
 		position: relative;
 		display: grid;
+		align-content: center;
 		grid-template-columns: auto auto auto;
 		padding-top: 20vw;
-		grid-row-gap: 55vw;
-		grid-column-gap: 20vw;
-		margin-left: 15vw;
-	}
-	.grid-container {
-		position: absolute;
-		display: grid;
-		grid-template-columns: auto auto auto;
-		padding-top: 20vw;
-		grid-row-gap: 20vw;
+		grid-row-gap: 35vw;
 		grid-column-gap: 8vw;
-		margin-left: 19vw;
+		margin-left: 14vw;
 		
 	}
 	#python
 	{
 		font-family: 'Permanent Marker';
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 1;
 		margin-top: 10vw;
+		padding-left: 20%;
+		padding-bottom: 10vw;
 	}
 	.pie-wrapper.progress-python
 	{
 		grid-row: 1;
-		margin-top: 10vw;
+		margin-top: 0vw;
 	}
 	#java
 	{
 		font-family: 'Permanent Marker';
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 2;
+		padding-left: 25%;
+		padding-bottom: 10vw;		
 	}
 	.pie-wrapper.progress-java
 	{
@@ -1309,8 +1220,10 @@ body .btn2 {
 	#cpp
 	{
 		font-family: 'Permanent Marker';	
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 3;
+		padding-left: 27%;
+		padding-bottom: 10vw;		
 	}
 	.pie-wrapper.progress-c
 	{
@@ -1319,8 +1232,10 @@ body .btn2 {
 	#ml
 	{
 		font-family: 'Permanent Marker';
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 4;
+		padding-left: 27%;
+		padding-bottom: 10vw;	
 	}
 	.pie-wrapper.progress-ml
 	{
@@ -1329,8 +1244,10 @@ body .btn2 {
 	#photoshop
 	{
 		font-family: 'Permanent Marker';
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 5;
+		padding-left: 20%;
+		padding-bottom: 10vw;		
 	}
 	.pie-wrapper.progress-photoshop
 	{
@@ -1339,8 +1256,10 @@ body .btn2 {
 	#web
 	{
 		font-family: 'Permanent Marker';
-		font-size: 3.5vw;
+		font-size: 5vw;
 		grid-row: 6;
+		padding-left: 20%;
+		padding-bottom: 10vw;		
 	}
 	.pie-wrapper.progress-web
 	{
@@ -1369,6 +1288,7 @@ body .btn2 {
 		width: 200px;
 	}
 	.pie-wrapper .label {
+		margin-top: 23.6vw;
 		background: #354759;
 		border-radius: 50%;
 		color: #ecf0f1;
@@ -1403,6 +1323,7 @@ body .btn2 {
 		color: #bdc3c7;
 	}
 	.pie-wrapper.progress-python .pie {
+		margin-top: -14.4vw;
 		clip: rect(auto, auto, auto, auto);
 	}
 	.pie-wrapper.progress-python .pie .right-side {
@@ -1513,9 +1434,17 @@ body .btn2 {
 	{
 		position: relative;
 		font-family: 'DIN 30640 Std';
-		font-size: 7vw;
+		font-size: 14vw;
 		top: 165vw;
-		left: 31vw;
+		left: 12vw;
+	}
+	#t2
+	{
+		position: relative;
+		top: -115vw;
+		height: 240vw;
+		left: -10vw;
+		width: 120vw;
 	}
 	body .btn,
 	body .btn2 {
@@ -1564,18 +1493,13 @@ body .btn2 {
 			background-position: 0% 50%;
 		}
 	}
-	.t2 
-	{
-		margin-top: 20vw;
-		padding-right: 10vw;
-	}
 	#c-text
 	{
 		display: none;
 	}
 	#contact
 	{
-		margin-top: 45vw;
+		margin-top: -125vw;
 	}
 	.arrow
 	{
