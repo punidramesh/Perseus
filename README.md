@@ -9,4 +9,4 @@
 [![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
 
-Source files for my website
+Source code for my website
