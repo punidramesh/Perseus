@@ -130,6 +130,14 @@ body
     padding-left: 5%;
 	  color: #27303b;
 }
+#nameD
+{
+    position: relative;
+    font-family: 'Noto Sans JP';
+    font-size: 3.25rem;
+    padding-left: 5%;
+	  color: #27303b;
+}
 #abt{
   position: relative;
   font-family: 'NotoSansJP-Medium';
@@ -325,8 +333,8 @@ button.btn{
 }
 #sf-img{
   border-radius: 20px;
-  height: 250px;
-  width: 450px
+  height: 300px;
+  width: 500px;
 }
 .mt-5{
   margin-top: 10%;
@@ -347,7 +355,6 @@ button.btn{
   justify-content: flex-start!important;
 }
 .u-paddingT20 {
-  padding-top: 20px;
   padding-left: 5%;
 }
 .u-bg-darkGrey {
@@ -788,7 +795,22 @@ textarea.input100 {
         margin-top: -3rem;
       }
       #name{
-        font-size: 3rem;
+        margin-top: 15%;
+        font-size: 2rem;
+        margin-left: 10px;
+      }
+      #nameD{
+        font-size: 2rem;
+      }
+      .u-bg-darkGrey {
+        margin-left: 5px;
+      }
+      .btn{
+        margin-left: 5px;
+      }
+      #me{
+        height: 200px;
+        width: 200px;
       }
       #im{
         height:23%;
@@ -797,7 +819,7 @@ textarea.input100 {
         padding-left: 2%;
       }
       #abt{
-        margin-top: 50vw;
+        margin-top: 100vw;
         font-size: 2rem;
       }
       #edu-text{

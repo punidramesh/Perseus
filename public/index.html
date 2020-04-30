@@ -28,19 +28,7 @@
 <!-- FireBase Initialization-->
         <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
 
-        <script>
-
-        var firebaseConfig = {
-            apiKey: "AIzaSyDy7dtUXZwiV_orJD1mRZ2Vve2pVeNvw_A",
-            authDomain: "iot-d9ca7.firebaseapp.com",
-            databaseURL: "https://iot-d9ca7.firebaseio.com",
-            projectId: "iot-d9ca7",
-            storageBucket: "iot-d9ca7.appspot.com",
-            messagingSenderId: "856904808708",
-            appId: "1:856904808708:web:b55b04e2e9bb53b3f37851"
-        };
-        firebase.initializeApp(firebaseConfig);
-        </script>
+        <script src = "js/firebase.js"></script>
 <!--End of Firebase Initilization-->  
 
 <!--Nav bar start-->
@@ -126,7 +114,7 @@
                         <img src = "assets/images/im.png" id = "im" class = "img-fluid">
                     </div>
                     <div class = "row justify-content-start">
-                        <span id = "name" class="text-nowrap">Punid Ramesh</span>
+                        <span id = "nameD" class="text-nowrap">Punid Ramesh</span>
                     </div>
                     <div class = "row justify-content-start">
                         <p id = "myinfo">I'm a Sophomore at Vellore Institute of Technology.
@@ -244,14 +232,14 @@
                             <span id = "name" class="text-nowrap">ARTEMIS</span>
                         </div>
                         <div class = "row justify-content-start">
-                            <p id = "arty-info">This is a website that provides realtime data on 
+                            <p id = "arty-info" style = "padding: 30px;">This is a website that provides realtime data on 
                                 spread of the Coronavirus. It supports data visualizations on 
                                 the daily updates for easy analysis of trends
                             </p>
                         </div>
                         <div class = "row justify-content-start">
                             <div class="Container-flex u-justify-start u-paddingT20 u-flex-row">
-                                <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Responsive</h5>
+                                <h5  class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Responsive</h5>
                                 <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Django</h5>
                             </div>
                         </div>
@@ -261,7 +249,31 @@
                         </div>
                     </div>
                 </div>
-                <div class = "row mt-5">
+                <div class = "row align-items-center justify-content-between mt-5">
+                    <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
+                        <img class = "img-fluid" src = "assets/images/sf.jpg" id = "sf-img">
+                    </div>  
+                    <div class="col-md-6" >
+                        <div class = "row justify-content-start">
+                            <span id = "name" class="text-nowrap">SMART FARMS</span>
+                        </div>
+                        <div class = "row justify-content-start">
+                            <p id = "arty-info" style = "padding: 30px;">This is a collaboration project with VIT 
+                                University's Electronics and Agriculture Department. 
+                                The aim of the project is to create a solution for 
+                                modernizing agricultural farms in India
+                            </p>
+                        </div>
+                        <div class = "row justify-content-start">
+                            <div class="Container-flex u-justify-start u-paddingT20 u-flex-row">
+                                <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">IoT</h5>
+                                    <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Automation</h5>
+                                    <h5 class=" text-nowrap u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Wireless Communication</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div class = "row mt-5">
                     <div class = "row align-items-center justify-content-between mt-5">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
                             <img class = "img-fluid" src = "assets/images/sf.jpg" id = "sf-img">
@@ -271,7 +283,11 @@
                                 <span id = "name" class="text-nowrap">SMART FARMS</span>
                             </div>
                             <div class = "row justify-content-start">
-                                <p id = "arty-info">This is a collaboration project with VIT University's Electronics and Agriculture Department. The aim of the project is to create a solution for modernizing agricultural farms in India.</p>
+                                <p id = "arty-info">This is a collaboration project with VIT 
+                                    University's Electronics and Agriculture Department. 
+                                    The aim of the project is to create a solution for 
+                                    modernizing agricultural farms in India
+                                </p>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class="Container-flex u-justify-start u-paddingT20 u-flex-row">
@@ -282,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
         </section>
 <!--End of Projects section-->  
