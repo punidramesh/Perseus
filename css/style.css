@@ -105,24 +105,10 @@ body
 
 /* About Area css
 ============================================================================================ */
-.about-area{
-  padding: 8rem 5rem;
-}
-
-.about-area .about-title h2 > span{
-  display: block;
-  font: normal bold 49px/ 60px var(--roboto);
-  letter-spacing: 21px;
-}
-
-.about-area .about-title .paragraph > p{
-  padding: .4rem 0;
-}
-
 #about{
   position: relative;
   margin-top: 45vw;
-  height: 100%;
+  height: 120%;
   width: 100%;
 }
 #im
@@ -314,13 +300,41 @@ body
   margin-top: 5%;
 }
 #arty-img{
-  height: 350px;
+  height: 300px;
   width: 500px;
 }
-
+#projects-txt{
+  position: relative;
+  font-family: 'NotoSansJP-Medium';
+  font-size: 2.5rem;
+  color: #27303b;    
+  padding-left: 3%; 
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+button.btn{
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 5%;
+  border-radius: 0%;
+}
+#sf-img{
+  border-radius: 20px;
+  height: 250px;
+  width: 450px
+}
+.mt-5{
+  margin-top: 10%;
+}
 /* End Projects Area css
-
 ============================================================================================ */
+
  /* Responsive css
 ============================================================================================ */
   @media only screen and (max-width: 760px) {
