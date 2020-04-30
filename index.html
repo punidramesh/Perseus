@@ -13,6 +13,9 @@
 
 <!--Importing CSS dependencies-->
         <link rel = "stylesheet" href = "css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+        <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -20,7 +23,6 @@
 <!--End of CSS imports-->
 
     <script src="https://kit.fontawesome.com/3da9cc3f09.js" crossorigin="anonymous"></script>
-
     <body>
 
 <!-- FireBase Initialization-->
@@ -62,19 +64,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent" justify-content-end>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#abt">ABOUT<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about">ABOUT<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#edu-text">EDUCATION<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#timeline">EDUCATION<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#skills-txt">SKILLS<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#feature_area">SKILLS<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#projects-txt">PROJECTS<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#projects">PROJECTS<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">BLOGS<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#blog_area">BLOGS<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
                     <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
@@ -170,7 +172,7 @@
 <!--End of Activities section-->
 
 <!--Start of Skills section-->   
-        <section class="feature_area">
+        <section id="feature_area">
             <div class="container">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -226,7 +228,7 @@
 <!--End of Skills section-->  
 
 <!--Start of Projects section-->  
-        <section class = "projects">
+        <section id = "projects">
             <div class="container">
                 <div class="row justify-content-center">
                     <p id = "projects-txt">PROJECTS</p>
@@ -262,7 +264,7 @@
                 <div class = "row mt-5">
                     <div class = "row align-items-center justify-content-between mt-5">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img clas = "img-fluid" src = "assets/images/sf.jpg" id = "sf-img">
+                            <img class = "img-fluid" src = "assets/images/sf.jpg" id = "sf-img">
                         </div>  
                         <div class="col-md-6" >
                             <div class = "row justify-content-start">
@@ -286,12 +288,78 @@
 <!--End of Projects section-->  
 
 <!--Start of Blogs section-->
-    <section class = "blog_area">
+    <section id = "blog_area">
         <div class="container">
             <div class="row justify-content-center">
                 <p id = "blogs-txt">BLOGS</p>
             </div>
+            <div class="container">
+                <div class="feature_inner row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature_item">
+                            <div class="col-lg-12 col-md-12 img d-flex align-self-stretch justify-content-center">
+                                <img class = "img-fluid" src = "https://miro.medium.com/max/1400/1*dLKrl2GDtlHAMV38dRgldQ.png" id = "md1-img">
+                            </div> 
+                            <h4 style = "margin-top: 50px;">How I made my VSCode look stunning</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature_item">
+                            <i class="fas fa-signature fa-10x"></i>
+                            <h4 style = "margin-top: 50px; margin-bottom: 25px;">Coming soon</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature_item">
+                            <i class="fas fa-signature fa-10x"></i><br/>
+                            <h4 style = "margin-top: 50px; margin-bottom: 25px;">Coming soon</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+<!--End of Blog section-->  
+
+<!--Start of Contact section--> 
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <p id = "contact-txt">CONTACT</p>
+            </div>
+        </div>
+        <form method="POST">
+            <div class="container-contact100">
+                <div class="wrap-contact100">
+                    <form class="contact100-form validate-form">
+                        <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                            <input class="input100" type="text" name="name" placeholder="Full Name">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter email: e@a.x">
+                            <input class="input100" type="text" name="email" placeholder="Email">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn">
+                                Send Email
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </form>
+        <script src = "js/contact.js"></script>
+        <script src="js/select2.js.min.js"></script>
+        <script src="js/animsition.js"></script>
+    </section>
+<!--End of Contact section--> 
     </body>
 </html>
