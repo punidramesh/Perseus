@@ -495,16 +495,10 @@ iframe {
 
 .wrap-contact100 {
   width: 800px;
-  background: #fff;
+  background: transparent;
   border-radius: 10px;
   overflow: hidden;
   padding: 72px 150px 25px 150px;
-
-  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -703,23 +697,7 @@ textarea.input100 {
   line-height: 1.2;
 }
 
-.btn-hide-validate {
-  font-family: Material-Design-Iconic-Font;
-  font-size: 15px;
-  color: #fa4251;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 62px;
-  top: 0px;
-  right: 28px;
-}
+
 
 .rs1-alert-validate.alert-validate::before {
   background-color: #fff;

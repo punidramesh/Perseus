@@ -10,7 +10,6 @@
                 showValidate(this);
             }
             else {
-                $(this).parent().addClass('true-validate');
             }
         })    
     })
@@ -56,15 +55,7 @@
 
     function showValidate(input) {
         var thisAlert = $(input).parent();
-
         $(thisAlert).addClass('alert-validate');
-
-        $(thisAlert).append('<span class="btn-hide-validate">&#xf135;</span>')
-        $('.btn-hide-validate').each(function(){
-            $(this).on('click',function(){
-               hideValidate(this);
-            });
-        });
     }
 
     function hideValidate(input) {
@@ -72,7 +63,4 @@
         $(thisAlert).removeClass('alert-validate');
         $(thisAlert).find('.btn-hide-validate').remove();
     }
-    
-    
-
 })(jQuery);

@@ -13,9 +13,6 @@
 
 <!--Importing CSS dependencies-->
         <link rel = "stylesheet" href = "css/style.css">
-        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-        <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -27,7 +24,6 @@
 
 <!-- FireBase Initialization-->
         <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
-
         <script src = "js/firebase.js"></script>
 <!--End of Firebase Initilization-->  
 
@@ -273,32 +269,6 @@
                         </div>
                     </div>
                 </div>
-                <!--div class = "row mt-5">
-                    <div class = "row align-items-center justify-content-between mt-5">
-                        <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img class = "img-fluid" src = "assets/images/sf.jpg" id = "sf-img">
-                        </div>  
-                        <div class="col-md-6" >
-                            <div class = "row justify-content-start">
-                                <span id = "name" class="text-nowrap">SMART FARMS</span>
-                            </div>
-                            <div class = "row justify-content-start">
-                                <p id = "arty-info">This is a collaboration project with VIT 
-                                    University's Electronics and Agriculture Department. 
-                                    The aim of the project is to create a solution for 
-                                    modernizing agricultural farms in India
-                                </p>
-                            </div>
-                            <div class = "row justify-content-start">
-                                <div class="Container-flex u-justify-start u-paddingT20 u-flex-row">
-                                    <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">IoT</h5>
-                                    <h5 class="u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Automation</h5>
-                                    <h5 class=" text-nowrap u-fontSize-h6 u-fontWeight-light u-letterSpacing_1 u-fontWeight-light u-bg-darkGrey u-borderR5 u-">Wireless Communication</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div-->
             </div>
         </section>
 <!--End of Projects section-->  
@@ -344,37 +314,33 @@
                 <p id = "contact-txt">CONTACT</p>
             </div>
         </div>
-        <form method="POST">
-            <div class="container-contact100">
-                <div class="wrap-contact100">
-                    <form class="contact100-form validate-form">
-                        <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-                            <input class="input100" type="text" name="name" placeholder="Full Name">
-                            <span class="focus-input100"></span>
-                        </div>
-        
-                        <div class="wrap-input100 validate-input" data-validate = "Please enter email: e@a.x">
-                            <input class="input100" type="text" name="email" placeholder="Email">
-                            <span class="focus-input100"></span>
-                        </div>
-        
-                        <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-                            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
-                            <span class="focus-input100"></span>
-                        </div>
-        
-                        <div class="container-contact100-form-btn">
-                            <button class="contact100-form-btn">
-                                Send Email
-                            </button>
-                        </div>
-                    </form>
-                </div>
+        <div class="container-contact100">
+            <div class="wrap-contact100">
+                <form class="contact100-form validate-form" method="POST">
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                        <input class="input100" type="text" name="name" placeholder="Full Name">
+                        <span class="focus-input100"></span>
+                    </div>
+    
+                    <div class="wrap-input100 validate-input" data-validate = "Please enter email: e@a.x">
+                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                    </div>
+    
+                    <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                        <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                        <span class="focus-input100"></span>
+                    </div>
+    
+                    <div class="container-contact100-form-btn">
+                        <button class="contact100-form-btn">
+                            Send Email
+                        </button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
         <script src = "js/contact.js"></script>
-        <script src="js/select2.js.min.js"></script>
-        <script src="js/animsition.js"></script>
     </section>
 <!--End of Contact section--> 
     </body>
