@@ -82,7 +82,6 @@ body
   height: 90%;
   background-color: #ffffff;
 }
-
 /* End Landing Area css
 ============================================================================================ */
 
@@ -256,7 +255,7 @@ body
   margin-bottom: 10%;
 }
 .feature_item {
-  padding: 50px 35px;
+  padding: 25px 35px;
   border-radius: 10px;
   transition: all 300ms linear 0s;
   background: #fff;
@@ -400,7 +399,6 @@ button.btn{
   color: #27303b;    
   padding-left: 3%; 
   margin-top: 10%;
-  margin-bottom:20%;
 }
 textarea {
   outline: none;
@@ -597,12 +595,11 @@ textarea.input100 {
   background-color: #ed375f;
   border-radius: 21px;
 
-  font-family: JosefinSans-Bold;
+  font-family: Fira Sans;
   font-size: 14px;
   color: #fff;
   line-height: 1.2;
-  text-transform: uppercase;
-  padding-top: 5px;
+  padding-top: 2px;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
