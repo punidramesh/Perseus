@@ -16,7 +16,7 @@ body
     background-color:  #ffffff;
     overflow-x: hidden; 
     text-rendering: optimizeLegibility;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fira Sans', sans-serif;
 
 }
 
@@ -40,23 +40,6 @@ body
          url('../assets/fonts/Neoteric Bold/NeotericBold.woff') format('woff'),
          url('../assets/fonts/Neoteric Bold/NeotericBold.ttf')  format('truetype'),
          url('../assets/fonts/Neoteric Bold/NeotericBold.svg#DIN 30640 Std') format('svg');
-}
-@font-face {
-    font-family: 'Bebas-Neue-Pro-Book';
-    src: url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.eot');
-    src: url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff2') format('woff2'),
-         url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.woff') format('woff'),
-         url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.ttf')  format('truetype'),
-         url('../assets/fonts/Bebas-Neue-Pro-Book/Bebas-Neue-Pro-Book.svg#DIN 30640 Std') format('svg');
-}
-@font-face {
-    font-family: 'Bahij_Janna-Regular';
-    src: url('../assets/fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.eot');
-    src: url('../assets/assets/fonts/Bahij_Janna-Regular/Bahij_Janna-Regular?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.woff') format('woff'),
-         url('../assets/fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.ttf')  format('truetype'),
-         url('../assets/fonts/Bahij_Janna-Regular/Bahij_Janna-Regular.svg#DIN 30640 Std') format('svg');
 }
 @font-face{
   font-family: 'Noto Sans JP';
@@ -89,7 +72,7 @@ body
 {
     position: absolute;
 	  padding-top: 20rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fira Sans', cursive;
     font-size: 1.55rem;
     padding-left: 2rem;
 }
@@ -152,7 +135,7 @@ body
 #myinfo
 {
     position: relative;
-    font-family: 'Permanent Marker';
+    font-family: 'Fira Sans';
     font-size: 1rem;
     color: #524E4B;
     padding-left: 5%;
@@ -205,10 +188,10 @@ body
 .ryan-sub
 {
     position: absolute;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fira Sans', cursive;
     top: 64%;
     left: 5%;
-	  font-size: 1.3vw;
+	  font-size: 1vw;
 }
 .m3
 {
@@ -229,10 +212,10 @@ body
 .allen-sub
 {
     position: absolute;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fira Sans', cursive;
     top: 82%;
     left: 55%;
-	font-size: 1.3vw;
+	  font-size: 1vw;
 }
 .m2
 {
@@ -246,17 +229,17 @@ body
 {
     position: absolute;
     font-family: 'Neoteric Bold';
-    top: 53%;
+    top: 52%;
     left: 26%;
 	  font-size: 1.3vw;
 }
 .vit-sub
 {
     position: absolute;
-    font-family: 'Permanent Marker', cursive;
-	  top: 59%;
+    font-family: 'Fira Sans', cursive;
+	  top: 58%;
     left: 26%;
-	  font-size: 1.25vw;
+	  font-size: 1vw;
 }
 /* End Eduction Area css
 ============================================================================================ */
@@ -301,7 +284,7 @@ body
 ============================================================================================ */
 #arty-info{
   position: relative;
-  font-family: 'Permanent Marker';
+  font-family: 'Fira Sans';
   font-size: 1rem;
   color: #524E4B;
   padding-left: 5%;
@@ -417,7 +400,7 @@ button.btn{
   color: #27303b;    
   padding-left: 3%; 
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom:20%;
 }
 textarea {
   outline: none;
@@ -467,7 +450,7 @@ iframe {
 
 .container-contact100 {
   width: 100%;  
-  min-height: 100vh;
+  min-height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -787,8 +770,8 @@ textarea.input100 {
         margin-left: 5px;
       }
       #me{
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
       }
       #im{
         height:23%;
@@ -798,7 +781,7 @@ textarea.input100 {
       }
       #abt{
         margin-top: 100vw;
-        font-size: 2rem;
+        font-size: 2.5rem;
       }
       #edu-text{
         margin-bottom: 10%;
@@ -819,7 +802,7 @@ textarea.input100 {
       .ryan-sub
       {
           position: absolute;
-          font-family: 'Permanent Marker', cursive;
+          font-family: 'Fira Sans', cursive;
           top: 65%;
           left: 5%;
           font-size: 2.3vw;
@@ -842,7 +825,7 @@ textarea.input100 {
       .allen-sub
       {
           position: absolute;
-          font-family: 'Permanent Marker', cursive;
+          font-family: 'Fira Sans', cursive;
           top: 89%;
           left: 55%;
           font-size: 2.3vw;
@@ -866,9 +849,21 @@ textarea.input100 {
       .vit-sub
       {
           position: absolute;
-          font-family: 'Permanent Marker', cursive;
+          font-family: 'Fira Sans', cursive;
           top: 45.5%;
           left: 20%;
           font-size: 2.25vw;
+      }
+      #contact-txt{
+        margin-top: 30%;
+      }
+      #blogs-txt{
+        margin-top: 10%;
+      }
+      #blogs-txt{
+        margin-top: 20%;
+      }
+      #projects-txt{
+        margin-top: 30%;
       }
   }
