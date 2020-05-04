@@ -622,7 +622,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 42px;
-  background-color: #ed375f;
+  background-color: #000000;
   border-radius: 21px;
 
   font-family: Fira Sans;
@@ -636,20 +636,20 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.5);
+  box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rrgba(66, 65, 65, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.5);
 }
 
 .contact100-form-btn:hover {
   background-color: #ed375f;
-  box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.8);
-  -moz-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.8);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.8);
-  -o-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.8);
-  -ms-box-shadow: 0 10px 30px 0px rgba(212, 89, 105, 0.8);
+  box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.8);
+  -moz-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.8);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.8);
+  -o-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.8);
+  -ms-box-shadow: 0 10px 30px 0px rgba(66, 65, 65, 0.8);
 }
 
 /*------------------------------------------------------------------
@@ -756,7 +756,7 @@ textarea.input100 {
 }
 
 .contact100-more-highlight {
-  color: #ed375f;
+  color: #000000;
 }
 /* End Contact Area css
 ============================================================================================ */

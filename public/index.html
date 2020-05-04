@@ -18,7 +18,7 @@
         <meta property="og:image:secure_url" content="//punidramesh.tech/assets/images/me.png">
         <meta property="og:image:type" content="image/png" />
         <meta property="og:description" content="This is my personal website. Feel free to have a look and get to know me better.">
-
+        <meta name="Description" content="This is my personal website. Feel free to have a look and get to know me better.">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="Punid Ramesh" />
         <meta name="twitter:url" content="https://punidramesh.tech" />
@@ -27,51 +27,21 @@
         <meta name="twitter:image" content="//punidramesh.tech/assets/images/me.png" />
         <meta name="twitter:title" content="Punid Ramesh">
         <meta name="twitter:image:src" content="//punidramesh.tech/assets/images/me.png">
-
-        <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5">
     </head>
-
-<!--Importing CSS dependencies-->
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel = "stylesheet" href = "css/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--Importing CSS dependencies-->
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <!--End of CSS imports-->
-<!--Importing Scripts-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '231122910');
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/3da9cc3f09.js" crossorigin="anonymous"></script>
-    <script>
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 10) {
-                $('#navbar').addClass('floatingNav');
-            } else {
-                $('#navbar').removeClass('floatingNav');
-            }
-        });
-        window.addEventListener('load', () =>{
-            const preload = document.querySelector('.preload');
-            const content = document.querySelector('.content');
-            setTimeout(function(){ preload.classList.add('preload-finish'); }, 2000);
-            setTimeout(function(){ content.classList.add('load-content'); }, 2000);
-        });
-    </script>
-
     <body>
         <div class = "preload"></div>
         <div class = "content">
 <!--Nav bar start-->
             <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id = "navbar">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/images/Ataraxia-min.svg" width="50" height="50" class="d-inline-block align-top" alt="">
+                    <img src="assets/images/Ataraxia-min.svg" width="50" height="50" alt = "This is my logo" class="d-inline-block align-top" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -110,7 +80,7 @@
                     <div class="row">
                         <div class = "col-12">
                             <div class = 'row justify-content-center'>
-                                <p id = "landing-title">Hello<img id = "bloom" class = "img-responsive" src= "assets/images/t1.webp"></p>
+                                <p id = "landing-title">Hello<img id = "bloom" class = "img-responsive" alt = "" src= "assets/images/t1.webp"></p>
                             </div>
                         </div>
                     </div>
@@ -135,11 +105,11 @@
                     </div>
                     <div class = "row align-items-center justify-content-between">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img clas = "img-fluid" src = "assets/images/me.png" id = "me">
+                            <img clas = "img-fluid" src = "assets/images/me.png" alt = "This is a picture of Punid Ramesh" id = "me">
                         </div>  
                         <div class="col-md-6" >
                             <div class = "align-items-center justify-content-between">
-                                <img src = "assets/images/im.webp" id = "im" class = "img-fluid">
+                                <img src = "assets/images/im.webp" id = "im" alt = "Decorative element" class = "img-fluid">
                             </div>
                             <div class = "row justify-content-start">
                                 <h1 style = "display: none;">Punid Ramesh</h1>
@@ -153,7 +123,7 @@
                                 a Software Developement Engineer</p>
                             </div>
                             <div class = "row justify-content-start">
-                                <button class="btn btn-1"><a target="_blank" style = "color: #FFF; text-decoration: none;" href = "assets/Punid's Resume.pdf">DOWNLOAD RESUME</a>
+                                <button class="btn btn-1"><a rel="noopener" target="_blank" style = "color: #FFF; text-decoration: none;" href = "assets/Punid's Resume.pdf">DOWNLOAD RESUME</a>
                             </div>
                         </div>
                     </div>
@@ -172,15 +142,15 @@
                 <picture>
                     <source media = "(min-width: 760px)" srcset="assets/images/timeline.svg">
                     <source id = 'lan-mob' media = "(max-width: 760px)" srcset="assets/images/timeline-mob.webp">
-                    <img src = "assets/images/timeline-mob.webp" id = "lan-mob">   
+                    <img alt = "A brief overview of Punid Ramesh's education" src = "assets/images/timeline-mob.webp" id = "lan-mob">   
                 </picture>
-                <img src = "assets/images/m1.webp" class = "m1">
+                <img src = "assets/images/m1.webp" alt = "Marker" class = "m1">
                 <p class = "ryan">Ryan International</p>
                 <p class = "ryan-sub">Upto class 10</p>
-                <img src = "assets/images/m2..webp" class = "m2">
+                <img src = "assets/images/m2.webp" alt = "Marker" class = "m2">
                 <p class = "allen">Allen Institute</p>
                 <p class = "allen-sub">Higher Secondary</p>
-                <img  src = "assets/images/m3.webp" class = "m3">
+                <img  src = "assets/images/m3.webp" alt = "Marker" class = "m3">
                 <p class = "vit">Vellore Institute<br>of Technology</p>
                 <p class = "vit-sub">Under Graduate</p>
             </section>
@@ -211,28 +181,28 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="feature_item">
-                                <img class = "icon" src = "assets/images/c.svg"><img class = "icon" src = "assets/images/c++.svg">
+                                <img alt = "" class = "icon" src = "assets/images/c.svg"><img alt = "" class = "icon" src = "assets/images/c++.svg">
                                 <h4 style = "font-family: NotoSansJP-Medium;">C/C++</h4>
                                 <p style = "font-family:Fira Sans;">The importance of <b>C</b> dawned upon me when I started with learing more about OS. I have a decent understanding of concepts like <b>data structures, pointers ,references and memory management</b></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="feature_item">
-                                <img class = "icon" src = "assets/images/django.svg">
+                                <img alt = "" class = "icon" src = "assets/images/django.svg">
                                 <h4 style = "font-family: NotoSansJP-Medium;">DJANGO</h4>
                                 <p style = "font-family:Fira Sans;">I had recently started using this framework and have much to learn. I have experience with developing the backend for a functional site. I am familiar with concepts like <b>ORM, authentication, API developement & Response handling</b></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="feature_item">
-                                <img class = "icon" src = "assets/images/ml.svg">
+                                <img alt = "" class = "icon" src = "assets/images/ml.svg">
                                 <h4 style = "font-family: NotoSansJP-Medium;">MACHINE LEARNING</h4>
                                 <p style = "font-family:Fira Sans;">I have done multiple courses and have participated in <b>Kaggle</b> competitions. I'm familiar with the different <b>Regression, Classification and Tree models along with basics of Neural Networks</b> and tools like <b>Numpy, Pandas, Tensorflow, Keras</b></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="feature_item">
-                                <img class = "icon" style="margin-bottom: 3.8em" src = "assets/images/microchip.svg">
+                                <img alt = "" class = "icon" style="margin-bottom: 3.8em" src = "assets/images/microchip.svg">
                                 <h4 style = "font-family: NotoSansJP-Medium;">MICROCONTROLLER PROGRAMMING</h4>
                                 <p style = "font-family:Fira Sans;">As a student doing a major in Electronics, I have worked with development boards like <b>Arduino</b> and <b>NodeMCU</b>. I also have experience working with microcontrollers like <b>8051</b> using <b>Assembly language</b></p>
                             </div>
@@ -252,7 +222,7 @@
                 <div class = "container">
                     <div class = "row align-items-center justify-content-between">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img clas = "img-fluid" src = "assets/images/artemis.webp" id = "arty-img">
+                            <img clas = "img-fluid" src = "assets/images/artemis.webp" alt = "Punid Ramesh's project Artemis using Django" id = "arty-img">
                         </div>  
                         <div class="col-md-6" >
                             <div class = "row justify-content-start">
@@ -271,14 +241,14 @@
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
-                                <button class="btn btn-1"><a target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://c0v1d-19-tracker.herokuapp.com/">VISIT</a>
-                                    <button class="btn btn-1"><a target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://github.com/eken25/Artemis"><i class="fa fa-github"></i> Source code</a>
+                                <button class="btn btn-1"><a rel="noopener" target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://c0v1d-19-tracker.herokuapp.com/">VISIT</a>
+                                    <button class="btn btn-1"><a rel="noopener" target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://github.com/eken25/Artemis"><i class="fa fa-github"></i> Source code</a>
                             </div>
                         </div>
                     </div>
                     <div class = "row align-items-center justify-content-between mt-5">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img class = "img-fluid" src = "assets/images/sf.webp" id = "sf-img">
+                            <img class = "img-fluid" src = "assets/images/sf.webp" alt = "Punid Ramesh's smart farm project" id = "sf-img">
                         </div>  
                         <div class="col-md-6" >
                             <div class = "row justify-content-start">
@@ -315,11 +285,11 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="feature_item">
                                     <div class="col-lg-12 col-md-12 img d-flex align-self-stretch justify-content-center">
-                                        <img class = "img-fluid" src = "https://miro.medium.com/max/1400/1*dLKrl2GDtlHAMV38dRgldQ.png" id = "md1-img">
+                                        <img class = "img-fluid" alt = "Punid Ramesh's blog" src = "assets/images/md1.webp" id = "md1-img">
                                     </div> 
                                     <h4 style = "margin-top: 50px;">How I made my VSCode look stunning</h4>
                                     <div class = "row justify-content-start">
-                                        <button class="btn btn-1"><a target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://medium.com/@punidramesh/how-i-made-my-vscode-look-stunning-21e8c72179da">READ</a>
+                                        <button class="btn btn-1"><a rel="noopener" target="_blank" style = "color: #FFF; text-decoration: none;" href = "https://medium.com/@punidramesh/how-i-made-my-vscode-look-stunning-21e8c72179da">READ</a>
                                     </div>
                                 </div>
                             </div>
@@ -343,6 +313,7 @@
 
 <!--Start of Contact section--> 
             <section id = "contact-me">
+                <script src="js/jquery.js"></script>
                 <div class="container">
                     <div class="row justify-content-center">
                         <p id = "contact-txt">CONTACT</p>
@@ -350,14 +321,18 @@
                 </div>
                 <div class="container-contact100">
                     <div class="wrap-contact100">
-                        <form class="contact100-form validate-form" method="POST" action="https://formspree.io/xknqwljn">
+                        <form for="contact" class="contact100-form validate-form" method="POST" action="https://formspree.io/xknqwljn">
                             <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-                                <input class="input100" type="text" name="name" placeholder="Full Name">
+                                <label for="name">
+                                    <input class="input100" type="text" name="name" placeholder="Full Name">
+                                </label>
                                 <span class="focus-input100"></span>
                             </div>
             
                             <div class="wrap-input100 validate-input" data-validate = "Please enter email: e@a.x">
-                                <input class="input100" type="text" name="email" placeholder="Email">
+                                <label for="email">
+                                    <input class="input100" type="text" name="email" placeholder="Email">
+                                </label>
                                 <span class="focus-input100"></span>
                             </div>
             
@@ -379,14 +354,14 @@
 <!--End of Contact section--> 
 
 <!--Start of Footer section--> 
-            <img id = "footer-img" class = "img-responsive" src="assets/images/footer.svg">
+            <img alt = "" id = "footer-img" class = "img-responsive" src="assets/images/footer.svg">
             <footer> 
                 <div class="footer-limiter">
                     <div class="footer-right">
-                        <a href="https://github.com/eken25" target = "_blank"><i class="fa fa-github"></i></a>
-                        <a href="https://linkedin.com/in/punid" target = "_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://twitter.com/punidr" target = "_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://instgram.com/prdeck" target = "_blank"><i class="fa fa-instagram"></i></a>
+                        <a for = "Github" href="https://github.com/eken25" target = "_blank"><i class="fa fa-github"></i></a>
+                        <a for = "Linkedin" href="https://linkedin.com/in/punid" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                        <a for = "Twitter" href="https://twitter.com/punidr" target = "_blank"><i class="fa fa-twitter"></i></a>
+                        <a for = "Instagram" href="https://instgram.com/prdeck" target = "_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                     <div class="footer-left">
                         <p class="footer-links">Get in touch</p>
@@ -394,5 +369,32 @@
                 </div>
             </footer> 
         </div>
+<!--Importing Scripts-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '231122910');
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/3da9cc3f09.js" crossorigin="anonymous"></script>
+        <script>
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 10) {
+                    $('#navbar').addClass('floatingNav');
+                } else {
+                    $('#navbar').removeClass('floatingNav');
+                }
+            });
+            window.addEventListener('load', () =>{
+                const preload = document.querySelector('.preload');
+                const content = document.querySelector('.content');
+                setTimeout(function(){ preload.classList.add('preload-finish'); }, 2000);
+                setTimeout(function(){ content.classList.add('load-content'); }, 2000);
+            });
+        </script>
     </body>
 </html>
