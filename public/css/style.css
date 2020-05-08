@@ -860,10 +860,16 @@ footer .footer-right a{
       }
       #abt{
         margin-top: 100vw;
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       #edu-text{
-        margin-bottom: 10%;
+        font-size: 2rem;
+        margin-bottom: 25%;
+      }
+      #skills-txt{
+        font-size: 2rem;
+        margin-top: 25%;
+        margin-bottom: 25%;
       }
       .m1
       {
@@ -934,16 +940,18 @@ footer .footer-right a{
           font-size: 2.25vw;
       }
       #contact-txt{
-        margin-top: 30%;
+        font-size: 2rem;
+        margin-top:25%;
       }
       #blogs-txt{
-        margin-top: 10%;
-      }
-      #blogs-txt{
-        margin-top: 20%;
+        font-size: 2rem;
+        margin-top: 25%;
+        margin-bottom: 25%;
       }
       #projects-txt{
-        margin-top: 30%;
+        font-size: 2rem;
+        margin-top: 25%;
+        margin-bottom: 25%;
       }
       #footer-img{
         margin-bottom: -3%;
