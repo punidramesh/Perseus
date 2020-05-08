@@ -23,3 +23,11 @@
     font-family: 'NotoSansJP-Medium';
     src: url('../assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf')  format('truetype');
   }
+  @font-face {
+    font-family: 'Beyond the mountains';
+    src: url('../assets/fonts/beyondthemountains/beyondthemountains.eot');
+    src: url('../assets/fonts/beyondthemountains/beyondthemountains.woff2') format('woff2'),
+         url('../assets/fonts/beyondthemountains/beyondthemountains.woff') format('woff'),
+         url('../assets/fonts/beyondthemountains/beyondthemountains.otf')  format('truetype'),
+         url('../assets/fonts/beyondthemountains/beyondthemountains.svg') format('svg');
+  }
