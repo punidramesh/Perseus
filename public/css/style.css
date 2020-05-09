@@ -17,7 +17,7 @@ body
     overflow-x: hidden; 
     text-rendering: optimizeLegibility;
     font-family: 'Fira Sans', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
+
 }
 .preload{
   text-align: center;
@@ -46,16 +46,11 @@ body
   font-family: "NotoSansJP-Medium";
   font-size: 1rem;
   color: #27303b;
-  transition: 0.2s all linear;
-}
-.nav-link-alt{
-  color: #e61867;
 }
 
 /* Landing Area css
 ============================================================================================ */
 #new{
-
   position: relative;
 }
 #landing-title
@@ -86,7 +81,9 @@ body
   height: 90%;
   background-color: #ffffff;
 }
-
+.nav-link.active {
+  background: green!important ;
+}
 /* End Landing Area css
 ============================================================================================ */
 
@@ -94,11 +91,10 @@ body
 ============================================================================================ */
 #about{
   position: relative;
-  margin-top: 45vw;
+  margin-top: 600px;
   height: 120%;
   width: 100%;
 }
-
 #im
 {
     position: relative;
@@ -838,10 +834,6 @@ footer .footer-right a{
         padding-left: 1rem;
         margin-top: -3rem;
       }
-      .about:after {
-        left: 45vw;
-        top: 113vw;
-      }
       #name{
         margin-top: 15%;
         font-size: 2rem;
@@ -867,7 +859,6 @@ footer .footer-right a{
         padding-left: 2%;
       }
       #abt{
-        margin-top: 100vw;
         font-size: 2rem;
       }
       #edu-text{
