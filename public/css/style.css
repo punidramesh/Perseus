@@ -369,6 +369,66 @@ button.btn{
 /* End Projects Area css
 ============================================================================================ */
 
+
+/* Experience Area css
+============================================================================================ */
+#exp-txt{
+  position: relative;
+  font-family: 'NotoSansJP-Medium';
+  font-size: 2.5rem;
+  color: #27303b;    
+  padding-left: 3%; 
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#experience{
+  background: #f9f9ff;
+}
+.exp-pic{
+  height: 10em;
+  width: 10em;
+  margin-bottom: 5em;
+}
+/* End Experience Area css
+============================================================================================ */
+
+/* Certificates Area css
+============================================================================================ */
+
+#certificates{
+  background: #f9f9ff;
+}
+.certi{
+  height: 6em;
+  margin-bottom: 5em;
+}
+.card-body {
+  -ms-flex: none none auto;
+  flex: none none auto;
+  padding: none; 
+}
+.btn:hover {
+  color: #FFF; 
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  padding: 25px 35px;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  background: #fff;
+  margin-bottom: 30px;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: none; 
+  border: 0px;
+  border-radius: 20px;
+}
+/* End Certificates Area css
+============================================================================================ */
+
+
 /* Blogs Area css
 ============================================================================================ */
 #blogs-txt{
@@ -955,4 +1015,5 @@ footer .footer-right a{
       #footer-img{
         margin-bottom: -3%;
       }
+      /*padding: 1.25rem;*/
   }
