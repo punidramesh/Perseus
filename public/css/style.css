@@ -165,7 +165,7 @@ body
     width: 25%;
     padding-left: 3%;
 }
-.me{
+#me{
   height: 350px;
   width: 350px;
 }
@@ -906,7 +906,10 @@ footer .footer-right a{
 
 	footer .footer-left p.footer-links{
 		line-height: 1.8;
-	}
+  }
+  #footer-img{
+    margin-bottom: -3%;
+  }
 }
 
 /* End Footer Area css

@@ -1,5 +1,4 @@
 
-window.addEventListener('load', function () {
   particlesJS('particles-js',
   { 
     "particles": {
@@ -112,5 +111,3 @@ window.addEventListener('load', function () {
       "retina_detect": true
   }
   );
-});
-jQuery(window).load(function($){window.dispatchEvent(new Event('resize'));$(window).resize()})
