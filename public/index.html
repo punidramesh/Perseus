@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-    <head>
+    <head> 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94WB80GH7"></script>
         <script>
@@ -19,7 +19,7 @@
         <title>Punid Ramesh's personal website. Feel free to have a look and get to know me better.</title>
         
 <!--Meta properties-->
-
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta property="og:site_name" content="punidramesh.tech">
         <meta property="og:title" content="Punid Ramesh's personal website">
         <meta charset="UTF-8">
@@ -63,6 +63,7 @@
     <link rel = "stylesheet" href = "css/bootstrap.css">
     <link rel = "stylesheet" href = "css/style.css">
     <link rel = "stylesheet" href = "css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 <!--End of CSS imports-->
 <script type='application/ld+json'> 
         {
@@ -140,14 +141,14 @@
                     <div class="row">
                         <div class = "col-12">
                             <div class = 'row justify-content-center'>
-                                <p id = "landing-title">Hello<img id = "bloom" class = "img-responsive" alt = "" src= "assets/images/t1.webp"></p>
+                                <p class = "animated animatedFadeInUp fadeInUp" id = "landing-title">Hello<img id = "bloom" class = "img-responsive" alt = "" src= "assets/images/t1.webp"></p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class = "col-12">
                             <div class = 'row justify-content-center'>
-                                <p id = "landing-subtext">This one is all about me</p>
+                                <p class = "animate__animated animate__fadeInUp" id = "landing-subtext">This one is all about me</p>
                             </div>
                         </div>
                     </div>
@@ -160,11 +161,11 @@
             <section id = "about">
                 <div  class = "container"> 
                     <div class = "row justify-content-center">
-                        <p id = "abt">ABOUT</p>
+                        <p class = "animate__animated animate__slideInUp" id = "abt">ABOUT</p>
                     </div>
                     <div class = "row align-items-center justify-content-between">
                         <div class="col-lg-6 col-md-6 img d-flex align-self-stretch justify-content-center">
-                            <img clas = "img-fluid" src = "assets/images/me.webp" alt = "This is a picture of Punid Ramesh" id = "me">
+                            <img class = "img-fluid me" src = "assets/images/me.webp" alt = "This is a picture of Punid Ramesh">
                         </div>  
                         <div class="col-md-6" >
                             <div class = "align-items-center justify-content-between">
@@ -182,7 +183,7 @@
                                     a career as a Software Development Engineer</p>
                             </div>
                             <div style = "padding-left: 5%" class="row justify-content-start">
-                                <a style = "color: black; padding-right: 5%;" for = "Github" href="https://github.com/punidramesh" target = "_blank"><i class="fa fa-github fa-lg"></i></a>
+                                <a style = "color: black; padding-right: 5%;" for = "Github" href="https://github.com/punidramesh" target = "_blank"><i style = "margin-left: 5px;" class="fa fa-github fa-lg"></i></a>
                                 <a style = "color: black; padding-right: 5%;" for = "Linkedin" href="https://linkedin.com/in/punid" target = "_blank"><i class="fa fa-linkedin fa-lg"></i></a>
                                 <a style = "color: black; padding-right: 5%;" for = "Twitter" href="https://twitter.com/punidramesh" target = "_blank"><i class="fa fa-twitter fa-lg"></i></a>
                                 <a style = "color: black; padding-right: 5%;" for = "Instagram" href="https://instgram.com/prdeck" target = "_blank"><i class="fa fa-instagram fa-lg"></i></a>
@@ -201,7 +202,7 @@
             <section id = "timeline">
                 <div class = "container">
                     <div class = "row justify-content-center">
-                        <p id = "edu-text">EDUCATION</p>
+                        <p class = "animate__animated animate__slideInUp" id = "edu-text">EDUCATION</p>
                     </div>
                 </div>
                 <picture>
@@ -226,7 +227,7 @@
                 <div class="container">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <p id = "skills-txt">SKILLS</p>
+                            <p class = "animate__animated animate__slideInUp" id = "skills-txt">SKILLS</p>
                         </div>
                     </div>
                     <div class="feature_inner row">
@@ -266,7 +267,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="feature_item">
+                            <div class="feature_item ">
                                 <img alt = "" class = "icon" style="margin-bottom: 3.8em" src = "assets/images/microchip.svg">
                                 <h4 style = "font-family: NotoSansJP-Medium;">MICROCONTROLLER PROGRAMMING</h4>
                                 <p itemprop="description" tyle = "font-family:Fira Sans;">As a student doing a major in Electronics, I have worked with development boards like <b>Arduino</b> and <b>NodeMCU</b>. I also have experience working with microcontrollers like <b>8051</b> using <b>Assembly language</b></p>
@@ -281,7 +282,7 @@
             <section id = "projects">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <p id = "projects-txt">PROJECTS</p>
+                        <p class = "animate__animated animate__slideInUp animate__delay-2s" id = "projects-txt">PROJECTS</p>
                     </div>
                 </div>
                 <div class = "container">
@@ -344,7 +345,7 @@
                 <div class="container">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <p id = "skills-txt">EXPERIENCE</p>
+                            <p class = "animate__animated animate__slideInUp animate__delay-5s" id = "skills-txt">EXPERIENCE</p>
                         </div>
                     </div>
                     <div class="feature_inner row justify-content-center">
@@ -375,7 +376,7 @@
     <div class="container">
         <div class="container">
             <div class="row justify-content-center">
-                <p id = "skills-txt">CERTIFICATES</p>
+                <p class = "animate__animated animate__slideInUp animate__delay-5s" id = "skills-txt">CERTIFICATES</p>
             </div>
         </div>
         <div style = "margin-bottom: 5em;" class="feature_inner row justify-content-end">
@@ -462,7 +463,7 @@
             <section id = "blog_area">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <p id = "blogs-txt">BLOGS</p>
+                        <p class = "animate__animated animate__slideInUp animate__delay-5s" id = "blogs-txt">BLOGS</p>
                     </div>
                     <div class="container">
                         <div class="feature_inner row">
@@ -500,7 +501,7 @@
                 <script src="js/jquery.js"></script>
                 <div class="container">
                     <div class="row justify-content-center">
-                        <p id = "contact-txt">CONTACT</p>
+                        <p class = "animate__animated animate__slideInUp animate__delay-5s" id = "contact-txt">CONTACT</p>
                     </div>
                 </div>
                 <div class="container-contact100">
