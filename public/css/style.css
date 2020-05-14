@@ -40,7 +40,9 @@ body
       opacity: 1
   }
 }
-
+.active{
+  color: #ed375f !important;
+}
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
