@@ -1,8 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en" >
     <head> 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94WB80GH7"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -11,8 +9,8 @@
 
             gtag('config', 'G-Y94WB80GH7');
         </script>
-        <!-- End Google Tag Manager -->
         <link rel="preconnect" href="//fonts.googleapis.com" crossorigin />
+
 <!--Favicon-->
         <link rel="shortcut icon" type="image/png" href="assets/images/Ataraxia-min.svg"/>
 <!--End of Favicon-->
@@ -57,6 +55,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5">
 
     </head>
+
 <!--Importing CSS dependencies-->
     <link rel = "stylesheet" href = "css/fonts.css">
     <link rel = "stylesheet" href = "css/bootstrap.css">
@@ -64,6 +63,7 @@
 	<link rel = "stylesheet" href = "css/animate.css">
     <link rel = "stylesheet" href = "css/font-awesome.css">
 <!--End of CSS imports-->
+
 <script type='application/ld+json'> 
         {
         "@context": "http://www.schema.org",
@@ -87,15 +87,17 @@
         ]
         }
     </script>
+
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
 <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7WSGSZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-        <div id="particles-js">
-            <div class = "preload"></div>
-        </div>
-        <div  style = "position: absolute;" class = "content">
+
+        <div id="particles-js"></div>
+
+        <div>
 <!--Nav bar start-->
             <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id = "navbar">
                 <a class="navbar-brand" href="#new">
@@ -557,19 +559,12 @@
         <script src="js/font-awesome.js"></script>
         <script src = "js/transition.min.js"></script>
         <script>
-			$('html').css('overflow-x', 'initial');
             $(window).scroll(function() {
                 if ($(window).scrollTop() > 10) {
                     $('#navbar').addClass('floatingNav');
                 } else {
                     $('#navbar').removeClass('floatingNav');
                 }
-            });
-            window.addEventListener('load', () =>{
-                const preload = document.querySelector('.preload');
-                const content = document.querySelector('.content');
-                setTimeout(function(){ preload.classList.add('preload-finish'); }, 2000);
-                setTimeout(function(){ content.classList.add('load-content'); }, 2000);
             });
         </script>
     </body>
