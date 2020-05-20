@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> Punid Ramesh <role> Developer <twitter> @punidramesh
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Firebase, jQuery, Bootstrap, Particle.js
