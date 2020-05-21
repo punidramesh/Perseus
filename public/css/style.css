@@ -356,7 +356,6 @@ body
   font-size: 1rem;
   color: #524E4B;
   padding-left: 5%;
-  margin-top: 5%;
 }
 #arty-img{
   height: 300px;
@@ -407,6 +406,7 @@ button.btn{
   justify-content: flex-start!important;
 }
 .u-paddingT20 {
+  margin-top: -1rem;
   padding-left: 5%;
 }
 .u-bg-darkGrey {
