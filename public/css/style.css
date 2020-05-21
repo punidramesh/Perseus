@@ -19,27 +19,7 @@ body
     font-family: 'Fira Sans', sans-serif;
 
 }
-@keyframes fadeInUp {
-  from {
-      transform: translate3d(0,40px,0)
-  }
 
-  to {
-      transform: translate3d(0,0,0);
-      opacity: 1
-  }
-}
-
-@-webkit-keyframes fadeInUp {
-  from {
-      transform: translate3d(0,40px,0)
-  }
-
-  to {
-      transform: translate3d(0,0,0);
-      opacity: 1
-  }
-}
 .active{
   color: #ed375f !important;
 }
@@ -50,60 +30,6 @@ body
   -webkit-animation-fill-mode: both
 }
 
-.animatedFadeInUp {
-  opacity: 0
-}
-
-.fadeInUp {
-  opacity: 0;
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
-.preload{
-  text-align: center;
-  width: 100%;
-	height: 100vh;
-	background: #fff url('https://punidramesh.tech/assets/images/Ataraxia-min.svg')
-   no-repeat center center;	
-  background-size: 200px;
-  z-index: 99999;
-    -webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes tilt-in-top-1 {
-  0% {
-    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
-            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
-    opacity: 1;
-  }
-}
-@keyframes tilt-in-top-1 {
-  0% {
-    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
-            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
-    opacity: 1;
-  }
-}
-.preload-finish{
-  display: none;
-  pointer-events: none;
-}
-.content{
-  display: none;
-}
-.load-content{
-  display: contents;
-}
 .floatingNav {
   transition: all 0.5s;
   box-shadow: -5.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
