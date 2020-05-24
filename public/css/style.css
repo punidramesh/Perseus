@@ -173,10 +173,10 @@ body
 .ryan
 {
     position: absolute;
-    font-family: 'Neoteric Bold';
+    font-family: 'Fira Sans';
     top: 61%;
     left: 5%;
-	  font-size: 1.3vw;
+	  font-size: 1.25vw;
 }
 .ryan-sub
 {
@@ -184,7 +184,8 @@ body
     font-family: 'Fira Sans', cursive;
     top: 64%;
     left: 5%;
-	  font-size: 1vw;
+    font-size: 1vw;
+    color:#ed375f;
 }
 .m3
 {
@@ -197,7 +198,7 @@ body
 .allen
 {
     position: absolute;
-    font-family: 'Neoteric Bold';
+    font-family: 'Fira Sans';
     top: 79%;
     left: 55%;
 	  font-size: 1.3vw;
@@ -208,7 +209,8 @@ body
     font-family: 'Fira Sans', cursive;
     top: 82%;
     left: 55%;
-	  font-size: 1vw;
+    font-size: 1vw;
+    color:#ed375f;
 }
 .m2
 {
@@ -221,10 +223,10 @@ body
 .vit
 {
     position: absolute;
-    font-family: 'Neoteric Bold';
+    font-family: 'Fira Sans';
     top: 52%;
     left: 26%;
-	  font-size: 1.3vw;
+    font-size: 1.25vw;
 }
 .vit-sub
 {
@@ -232,7 +234,8 @@ body
     font-family: 'Fira Sans', cursive;
 	  top: 58%;
     left: 26%;
-	  font-size: 1vw;
+    font-size: 1vw;
+    color:#ed375f;
 }
 /* End Eduction Area css
 ============================================================================================ */
@@ -932,7 +935,6 @@ footer .footer-right a{
       .allen
       {
           position: absolute;
-          font-family: 'Neoteric Bold';
           top: 86%;
           left: 55%;
           font-size: 2.3vw;
@@ -956,7 +958,6 @@ footer .footer-right a{
       .vit
       {
           position: absolute;
-          font-family: 'Neoteric Bold';
           top: 39.5%;
           left: 20%;
           font-size: 2.3vw;
