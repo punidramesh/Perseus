@@ -906,22 +906,22 @@ footer .footer-right a{
       }
       .m1
       {
-          top: 70.75%;
+          top: 75.75%;
           left: 10%;
           height: 8vw;
           width: 8vw;
       }
       .ryan
       {
-          top: 61%;
-          left: 2%;
+          top: 63%;
+          left: 1.5%;
           font-size: 2.3vw;
       }
       .ryan-sub
       {
           position: absolute;
           font-family: 'Fira Sans', cursive;
-          top: 65%;
+          top: 67%;
           left: 5%;
           font-size: 2.3vw;
       }
@@ -950,7 +950,7 @@ footer .footer-right a{
       .m2
       {
           position: absolute;
-          top: 49.5%;
+          top: 55.5%;
           left: 27.9%;
           height: 8vw;
           width: 8vw;
@@ -958,7 +958,7 @@ footer .footer-right a{
       .vit
       {
           position: absolute;
-          top: 39.5%;
+          top: 47.5%;
           left: 20%;
           font-size: 2.3vw;
       }
@@ -966,7 +966,7 @@ footer .footer-right a{
       {
           position: absolute;
           font-family: 'Fira Sans', cursive;
-          top: 45.5%;
+          top: 52.5%;
           left: 20%;
           font-size: 2.25vw;
       }
