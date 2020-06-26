@@ -367,9 +367,9 @@ button.btn{
 ============================================================================================ */
 
 
-/* Experience Area css
+/* Volunteering Area css
 ============================================================================================ */
-#exp-txt{
+#vol-txt{
   position: relative;
   font-family: 'NotoSansJP-Medium';
   font-size: 2.5rem;
@@ -379,7 +379,7 @@ button.btn{
   margin-bottom: 10%;
 }
 
-/* End Experience Area css
+/* End Volunteering Area css
 ============================================================================================ */
 
 /* Certificates Area css
