@@ -863,6 +863,12 @@ footer .footer-right a{
         padding-right: 5rem;
         text-align: center;
       }
+      #acm{
+        margin-left: 70px;
+      }
+      #edge{
+        margin-left: 20px;
+      }
       #landing-subtext{
         font-size: 1.5rem;
         padding-left: 1rem;
