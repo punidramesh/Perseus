@@ -873,7 +873,7 @@ footer .footer-right a{
         text-align: center;
       }
       #edge{
-        margin-left: 20px;
+        margin-left: 5%;
       }
       #landing-subtext{
         font-size: 1.5rem;
@@ -886,10 +886,10 @@ footer .footer-right a{
         margin-left: 10px;
       }
       #md1-img{
-        margin-left: 60px
+        margin-left: 10%
       }
       #acm{
-        margin-left: 50px;
+        margin-left: 10%;
       }
       #nameD{
         font-size: 2rem;
