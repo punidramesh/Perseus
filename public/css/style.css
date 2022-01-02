@@ -152,8 +152,7 @@ body
   font-size: 2.5rem;
   color: #27303b;    
   padding-left: 3%; 
-  margin-top: 10%;
-  margin-bottom: -5%;
+  margin-bottom: 5%;
 }
 .tlpic
 {
@@ -416,8 +415,16 @@ button.btn{
 }
 #md1-img{
   height: 150px;
-  width: 300px;
+  width: 190px;
   border-radius: 10px;
+  margin-left: 20px;
+}
+
+#acm{
+  height: 170px;
+  width: 220px;
+  border-radius: 10px;
+  margin-bottom: 90px
 }
 /* End Blogs Area css
 ============================================================================================ */
@@ -865,9 +872,6 @@ footer .footer-right a{
         padding-right: 5rem;
         text-align: center;
       }
-      #acm{
-        margin-left: 70px;
-      }
       #edge{
         margin-left: 20px;
       }
@@ -880,6 +884,12 @@ footer .footer-right a{
         margin-top: 15%;
         font-size: 2rem;
         margin-left: 10px;
+      }
+      #md1-img{
+        margin-left: 60px
+      }
+      #acm{
+        margin-left: 50px;
       }
       #nameD{
         font-size: 2rem;
@@ -906,6 +916,7 @@ footer .footer-right a{
       #edu-text{
         font-size: 2rem;
         margin-bottom: 25%;
+        margin-top: 20%;
       }
       #skills-txt{
         font-size: 2rem;
