@@ -10,12 +10,12 @@
 html, body {
     max-width: 100%;
     background-color:  #ffffff;
+    overflow-x: hidden
 }
 
 body
 {
     background-color:  #ffffff;
-    overflow-x: hidden; 
     text-rendering: optimizeLegibility;
     font-family: 'Fira Sans', sans-serif;
 
