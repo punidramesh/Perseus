@@ -10,7 +10,8 @@
 html, body {
     max-width: 100%;
     background-color:  #ffffff;
-    overflow-x: hidden
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body
@@ -18,7 +19,6 @@ body
     background-color:  #ffffff;
     text-rendering: optimizeLegibility;
     font-family: 'Fira Sans', sans-serif;
-
 }
 
 .active{

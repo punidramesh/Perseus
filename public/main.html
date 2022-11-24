@@ -61,7 +61,9 @@
         <meta name="twitter:image" content="//punidramesh.tech/assets/images/me.webp" />
         <meta name="twitter:title" content="Punid Ramesh">
         <meta name="twitter:image:src" content="//punidramesh.tech/assets/images/me.webp">
-        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5"> -->
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
 
     </head>
 <!--Importing CSS dependencies-->
@@ -81,7 +83,6 @@
         "url": "https://punidramesh.tech",,
         "sameAs": [
         "https://github.com/punidramesh"
-        "https://instagram.com/prdeck",
         "https://www.linkedin.com/in/punid",
         "https://twitter.com/punidramesh"
         ]
@@ -179,10 +180,11 @@
                                 <span itemprop="name" id = "nameD" class="text-nowrap">Punid Ramesh</span>
                             </div>
                             <div data-aos="fade-up" data-aos-duration = "3500" data-aos-anchor=".about" class = "row justify-content-start">
-                                <p itemprop="description" id = "myinfo">I'm a Senior at Vellore Institute of Technology.
-                                    Currently pursuing a bachelor's degree in 
-                                    Electronics and Communication Engineering
-                                    with Specialization in IoT and Sensors.</p>
+                                <p itemprop="description" id = "myinfo">I'm a Software Engineer at HP Inc.
+                                    I work with microservices developed using 
+                                    the Spring framework. I occasionally dabble
+                                    in frontend development using React.
+                                </p>
                             </div>
                             <div data-aos = "fade-up" style = "padding-left: 5%" class="row justify-content-start">
                                 <a style = "color: black; padding-right: 5%;" for = "Github" href="https://github.com/punidramesh" target = "_blank"><i style = "margin-left: 5px;" class="fa fa-github fa-lg"></i></a>
@@ -266,22 +268,30 @@
                 <div class="feature_inner row justify-content-center">
                     <div data-aos = "fade-up" class="d-flex align-items-stretch col-lg-4 col-md-6 ">
                         <div class="feature_item">
-                            <img alt = "Team Sammard Logo" style = "margin-left: 1px; margin-top: 1px; height: 9em; width: 9em; margin-bottom: 1.8em;" src = "assets/images/jio.svg">
-                            <h4 style = "font-family: NotoSansJP-Medium;">RELIANCE JIO</h4>
-                            <h6 style=" color:#ed375f;  font-family: Fira Sans; margin-bottom: 20px;">SOFTWARE ENGINEER INTERN</h6>
-                            <p itemprop="description" style = "font-family:Fira Sans;">Developing a scalable backend for energy metering</p>  
-                            <p itemprop="description" style = "font-family:Fira Sans;"><b>Technology</b> : Kafka, Kubernetes, Docker, MongoDB, OPC-UA, CoAP</p>                      
+                            <img alt = "HP Logo" style = "margin-left: 1px; margin-top: 1px; height: 9em; width: 9em; margin-bottom: 1.8em;" src = "assets/images/hp.svg">
+                            <h4 style = "font-family: NotoSansJP-Medium;">HP</h4>
+                            <h6 style=" color:#ed375f;  font-family: Fira Sans; margin-bottom: 20px;">SOFTWARE ENGINEER</h6>
+                            <p itemprop="description" style = "font-family:Fira Sans;">Working on enhancing and maintaining the Stratus IoT Platform</p>      
+                            <p itemprop="description" style = "font-family:Fira Sans;"><b>Technology</b> : Springboot, DynamoDB, RDS, Apigee, SonarQube, NexusIQ, Docker, Splunk, Jenkins</p>                      
                         </div>
                     </div>
                     <div data-aos = "fade-up" class="d-flex align-items-stretch col-lg-4 col-md-6 ">
                         <div class="feature_item">
-                            <img alt = "Team Sammard Logo" style = "margin-left: -30px; margin-top: -43px; height: 15em; width: 15em; margin-bottom: -1.5em;" src = "assets/images/kfxlogo.webp">
-                            <h4 style = "font-family: NotoSansJP-Medium;">KFX LABS</h4>
-                            <h6 style=" color:#ed375f;  font-family: Fira Sans; margin-bottom: 20px;">IOT ENGINEER INTERN</h6>
-                            <p itemprop="description" style = "font-family:Fira Sans;">Developed a real-time critical asset monitoring based on the seismic data collected from seismic sensor. </p>  
-                            <p itemprop="description" style = "font-family:Fira Sans;">Data visualization of asset and edge devices on Grafana Dashboard.</p>   
-                            <p itemprop="description" style = "font-family:Fira Sans;">The solution performs edge-analytics for automated actuation.</p>   
-                            <p itemprop="description" style = "font-family:Fira Sans;"><b>Technology</b> : EdgeX Framework, Docker, GoLang, Python, Telegraf, InfluxDB, Grafana, GCP</p>                      
+                            <img alt = "HP Logo" style = "margin-left: 1px; margin-top: 1px; height: 9em; width: 9em; margin-bottom: 1.8em;" src = "assets/images/hp.svg">
+                            <h4 style = "font-family: NotoSansJP-Medium;">HP</h4>
+                            <h6 style=" color:#ed375f;  font-family: Fira Sans; margin-bottom: 20px;">RESEARCH AND DEVELOPMENT INTERN</h6>
+                            <p itemprop="description" style = "font-family:Fira Sans;">Implemented distributed tracing of platform microservices using OpenTelemetry for quick diagnosis of the cause of request latency and failure</p>  
+                            <p itemprop="description" style = "font-family:Fira Sans;">Developed a web application for platform solutions to manage API usage consent by upgrading the existing process done using sheets</p>       
+                            <p itemprop="description" style = "font-family:Fira Sans;"><b>Technology</b> : OpenTelemetry, EC2, ELB, RDS, Zipkin, Spring Boot, React, MySQL, Docker, Terragrunt, Splunk</p>                      
+                        </div>
+                    </div>
+                    <div data-aos = "fade-up" class="d-flex align-items-stretch col-lg-4 col-md-6 ">
+                        <div class="feature_item">
+                            <img alt = "Jio Logo" style = "margin-left: 1px; margin-top: 1px; height: 9em; width: 9em; margin-bottom: 1.8em;" src = "assets/images/jio.svg">
+                            <h4 style = "font-family: NotoSansJP-Medium;">RELIANCE JIO</h4>
+                            <h6 style=" color:#ed375f;  font-family: Fira Sans; margin-bottom: 20px;">SOFTWARE ENGINEER INTERN</h6>
+                            <p itemprop="description" style = "font-family:Fira Sans;">Developing a scalable backend for energy metering</p>  
+                            <p itemprop="description" style = "font-family:Fira Sans;"><b>Technology</b> : Kafka, Kubernetes, Docker, MongoDB, OPC-UA, CoAP</p>                      
                         </div>
                     </div>
                 </div>
